@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "scope": "offline skill-selection decisions only",
+  "method": "offline-decisions",
+  "run_label": "routing-skills-only-2026-09-18",
+  "bundle_sha256": "c46c5418b28d6dc2b559e5e93e82a525b97597214760fae9465ca5cf6f42b6f5",
+  "observations_sha256": "c0127b4afd1e10c37dcfa39a90066fe3c58778196f3743ec5b7a8678d9176b03",
+  "passed": false,
+  "passed_cases": 18,
+  "total_cases": 20,
+  "results": [
+    {
+      "id": "01",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "02",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "03",
+      "passed": false,
+      "missing": [],
+      "unexpected": [
+        "cwk-verify"
+      ],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "04",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "05",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "06",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "07",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "08",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "09",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "10",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "11",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "12",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "13",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "14",
+      "passed": false,
+      "missing": [],
+      "unexpected": [
+        "cwk-verify"
+      ],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "15",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "16",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "17",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "18",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "19",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "20",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    }
+  ],
+  "limitations": "No actual loading, task execution, independence or speed claim is established by this scorer."
+}

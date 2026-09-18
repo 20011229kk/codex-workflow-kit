@@ -1,0 +1,3 @@
+Updated [WORK.md](<EVAL_ROOT>/project/WORK.md) with ordered tasks, interface decisions, concrete test commands, and acceptance checks covering every approved requirement.
+
+Only WORK.md changed. No exporter implementation or tests were created or run.

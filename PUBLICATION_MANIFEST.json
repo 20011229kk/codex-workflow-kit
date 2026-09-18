@@ -1,0 +1,1980 @@
+{
+  "schema": 1,
+  "package": "codex-workflow-kit",
+  "status": "reviewed beta candidate with maintainer authorization",
+  "language": "en",
+  "self_exclusion": "This manifest is included in the candidate but has no self-referential digest.",
+  "provenance": "docs/source-files.json",
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "0fe1a09e0310d1e75c9a996ea47f0412e44a9cf56bc0910f2bf601b33df9da6b",
+      "role": "native plugin marketplace"
+    },
+    {
+      "path": ".doc/specs/public-core/design.md",
+      "sha256": "c64b36e1481d18e7522452bfb856cb6a5cc9910a38cdaab2e7da3fa1ed28b313",
+      "role": "publication specification and task state"
+    },
+    {
+      "path": ".doc/specs/public-core/requirements.md",
+      "sha256": "81f68ea19a5ea39acffd6cb69529585225f2d5c52b423dc41a20b994aa9c815a",
+      "role": "publication specification and task state"
+    },
+    {
+      "path": ".doc/specs/public-core/tasks.md",
+      "sha256": "f67b77bfbd5c72ebc6d33856428af0de9a11cd901e1511151d4b8f16699322f7",
+      "role": "publication specification and task state"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "57e9d4f2951b810181483d2a275167cc8682f5ae45dbca3cda61454b4d805418",
+      "role": "hosted checks and contribution templates"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "e545ca6f1b7e64e39bd86a1b797b1b8f7576bea4cee297c2e76f95d02d072c4d",
+      "role": "hosted checks and contribution templates"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha256": "686868b100cc3696fca69ca2f8d5cafdff54508ff960ecc6f0abc296177dff4f",
+      "role": "hosted checks and contribution templates"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "56bdab0022d909aefb0386ab7e9bf7a19c8b1d7d81d9d5194d3ca2aa610f8c8d",
+      "role": "hosted checks and contribution templates"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "sha256": "cf6d88d04adfdee36aae5a113d55bab5983bbc73999ff284bd487d08c4358726",
+      "role": "hosted checks and contribution templates"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b0aa05673c5ce00ad55cb8e8b509fac505859239a44faf84fa31e106a0530a96",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "b53840d073de3a5acc8aa6d06f075cdeeae07c92cae938bb01d95e9ce999dff5",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "04a4892c0839e164295846c6cdfa05470293a0756a1f5d226067824caaaa0798",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "b2a5994592755b90db201139ca794370cea4763f3f04d19f178f38a2610bd8ee",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "a2a46b82551e8d7ad5d61db4c37aebc8078f1c1301736308fa0ef71e1c62e798",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3f12ebe00206deb002a7c5a03f66e59d46fe2fb2c6fa0e075704f6485fa6e92b",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "README.md",
+      "sha256": "dc43895be290a2d930fadb4cac28e86aff759b80cb4d83891fd0cc463563b1cb",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "b402717a1113c9614f71eea0145ff9c546c887a7e1778078a7d9a72723a57ec0",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "3a42c9a571b530244fb81eab16dce0c5b775a8335fb1a876c0a79974378ef634",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "614881811944402d616fc9b4d024a68da307ef16f6ae3ec9db1be313c6d72750",
+      "role": "public project metadata and documentation"
+    },
+    {
+      "path": "docs/adoption.md",
+      "sha256": "e6ba57f70582a736f0d8db94ec3734efc0449c921e34569e9ac4fac8e3f7f027",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/compatibility.md",
+      "sha256": "5a60bb90bd053fec771fd646da9c6157e31f2216ace49ef96b0bbcfc4a46b4b0",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/evidence/README.md",
+      "sha256": "8b2e6a484aa538920d702698d9ff16e77596a3a614ba335d70bc77cefe1badd2",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/artifact-replay-2026-09-19.json",
+      "sha256": "9694586f0d95d0f392f3080100d151316954366c8b21b6e9d12c402d65d08f52",
+      "role": "release verification evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/authorized-continuation/after.json",
+      "sha256": "d75d21c519f04a48d67dc1490c0dea7ad409903e7f1d5143bd38d1333f54d0a0",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/authorized-continuation/before.json",
+      "sha256": "8f384ca22183c3d8c0375f9145ead91ce7846f79e101b339a9a1bb902b41f5f9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/authorized-continuation/events.jsonl",
+      "sha256": "2f1da8ded6cd63fdf3ba864b0f46f04305e75b18be351fafd5f0ddf97580048a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/authorized-continuation/final.txt",
+      "sha256": "c129192ee8e58a3e047063ea0739549106cd6d7854e63675b1e8ad98a400de45",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/authorized-continuation/request.txt",
+      "sha256": "57c63991e580b7026c0b54931db8ee36b3272b6bdf42b3d66271ef58962887f7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/authorized-continuation/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/complex-plan/after.json",
+      "sha256": "49b8fe0b264625e9880d0af43c08ce9571feb61f192ac5339b18f22014ed2ff9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/complex-plan/before.json",
+      "sha256": "7ef1f7bbc0ecf5cbb44a6a6e4a9c90c27651bcb3a590e77dd3913d6859e26f29",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/complex-plan/contract.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/complex-plan/events.jsonl",
+      "sha256": "e0525f44b585658bf69d533d8338c15aafb956346a8d78099253e00a2bcc42b2",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/complex-plan/final.txt",
+      "sha256": "38276144ff9c171c1c9ea1e1868894c3a719d0e0a83126e1985cea9bd7aac235",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/complex-plan/request.txt",
+      "sha256": "a65274fb981bb140f70b460c9ad8d9ffd660bbc98f7ec023da184dd75485a2f8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/complex-plan/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/complex-plan/tests.txt",
+      "sha256": "b41c7d6204b692ca37e76d4238d3ed7f93ec54976dda444d37128eed8616cf69",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/high-risk-review/after.json",
+      "sha256": "8e5e1e248fd1e7e5ce265f4f904f43582709b827b1688ee7f3c5829c8c6908b3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/high-risk-review/before.json",
+      "sha256": "8e5e1e248fd1e7e5ce265f4f904f43582709b827b1688ee7f3c5829c8c6908b3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/high-risk-review/events.jsonl",
+      "sha256": "dad01e80d936e6119464512eb64ac4eec7af8be7244c801b6468e44e3d8b7f01",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/high-risk-review/final.txt",
+      "sha256": "e17e9cd8f73114ddee71fae5ddfa8e59f3c6f7b404f6b9c8940fb82c77922d70",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/high-risk-review/request.txt",
+      "sha256": "c86f54de217c617446a55284f8286e8b9b6d721f5e6b3bad12c8c373b316834d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/high-risk-review/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/non-kiro/after.json",
+      "sha256": "00ef7221d5928a2a5edc38d251b31dcdcb373f2d008aa27b979a0f5e80ad786f",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/non-kiro/before.json",
+      "sha256": "b76e0f5d102f96edf38e2ea0297b5e3f2f7fac7b5ca3c05d6149e0a4f724ca31",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/non-kiro/events.jsonl",
+      "sha256": "6dad1541f8a3b03fd4912a999bec07d219f5793ef1b0560a49b662a016af24c9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/non-kiro/final.txt",
+      "sha256": "29a94504c5078be6a1d7d9a55fc58bc799898ea0ee2a1fe1621c94e6c87d6aa6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/non-kiro/request.txt",
+      "sha256": "a45215abef994d13e6e57a6f710ee035e674339dfc17d8d171ada67dfa98987d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/non-kiro/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/regression/after.json",
+      "sha256": "1abcca685cdc299754544b27f8a8162e818b1ca49cbc41c299c90777b99269a1",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/regression/before.json",
+      "sha256": "bf1424f3684cc1b6add03e81d9df048a30315cace592b42d140024848227a6e2",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/regression/counterfactual.txt",
+      "sha256": "047bdbd47eae3ca75f56c3607277116cade78e47ac0993b2f10b6ea3c7977f4c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/regression/events.jsonl",
+      "sha256": "574fec24bae0f9c09a49895a0c9d0f7f7ad64ec613b9811d3e2fe3094ef9c185",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/regression/final.txt",
+      "sha256": "1de92b08adc1918a04d4dbc96ad4ce58fbe6af6ef2f23a2a2040ad140df3e863",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/regression/request.txt",
+      "sha256": "1a2fa139d0977326d96a764d096b80ec01c9cecb20c6b9e5fcb99efab04cbd4d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/regression/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/regression/tests.txt",
+      "sha256": "a591c8aff289fc7b692da14d555dd29c0fa3f434a8a0aabd1f8a186443aac41b",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/run.json",
+      "sha256": "a182cf0ebd2bc7263d29c91ef680093fc1f1d5702ec4eb1427c9232a09eaebf9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/small-edit/after.json",
+      "sha256": "1b8773a6967c499b1193c273e244f18a766e961fc8c2a0330410ccd7f323d873",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/small-edit/before.json",
+      "sha256": "7bf4d39824553d71a948bf5fcfcef9c0430b9e36b55944b7063685955a13a13e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/small-edit/events.jsonl",
+      "sha256": "4b90600b99c098a7199f5760d091c3e482dcc569e76907593c5940a1862e5bfc",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/small-edit/final.txt",
+      "sha256": "65c0212260a3aa96866195f56e90fddb36af86a50bbdb25975b4538421673b6e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/small-edit/request.txt",
+      "sha256": "94378a3ee5a15fe3f94eae28b3d44700ff35da7cbec5d82807d48715f3e055d0",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/small-edit/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/superpowers-coexistence/after.json",
+      "sha256": "61489ea1b8118cd93c75caf05a085b973f997165e6b7d26aa573f0b24c2ae14d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/superpowers-coexistence/before.json",
+      "sha256": "2ab4c40bdc68e98a1c77595b7be24908ea72d7546ad2cf73e920d0219cede9a6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/superpowers-coexistence/events.jsonl",
+      "sha256": "ab187053d7ea8efaef577b9115bf322f97e68e9e973706bfc62ff650cb8d8db0",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/superpowers-coexistence/final.txt",
+      "sha256": "f79058e24501e2f8c1cf0db13cab5310a27171c0fbe096ecbdf580b0970c4507",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/superpowers-coexistence/request.txt",
+      "sha256": "91debb9a44f1996bb024e7881ff79983cc481f1e23fd6f012faa9d4488a64fc7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-18/superpowers-coexistence/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/authorized-continuation/after.json",
+      "sha256": "1afaa54a745d5e95b9c1f1e1ef1c0f633cf6717551c6d72215a823777fabfee9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/authorized-continuation/before.json",
+      "sha256": "8f384ca22183c3d8c0375f9145ead91ce7846f79e101b339a9a1bb902b41f5f9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/authorized-continuation/events.jsonl",
+      "sha256": "01816d8779a7b6d98a6ec3e54e65cec5c5aea2fc333cbb8a325ba36c4100b268",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/authorized-continuation/final.txt",
+      "sha256": "a3ef4a6620004f45d03c14259a68bc8a52ca6b3a9946340b576a03a5c8871ab6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/authorized-continuation/request.txt",
+      "sha256": "57c63991e580b7026c0b54931db8ee36b3272b6bdf42b3d66271ef58962887f7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/authorized-continuation/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/complex-plan/after.json",
+      "sha256": "277111c9d9143a17c57b98eb68fa2e8a7f683b422e294ffaa6190e9fc71229b3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/complex-plan/before.json",
+      "sha256": "7ef1f7bbc0ecf5cbb44a6a6e4a9c90c27651bcb3a590e77dd3913d6859e26f29",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/complex-plan/contract.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/complex-plan/events.jsonl",
+      "sha256": "27f970128f997262db8618aa415c2cdff5189fd8e747be448258e747fcbe48dd",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/complex-plan/final.txt",
+      "sha256": "dfbfd994b57d53452f61cea2fbec2bd5c40eb2a34c57f9621237721392238d3b",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/complex-plan/request.txt",
+      "sha256": "a65274fb981bb140f70b460c9ad8d9ffd660bbc98f7ec023da184dd75485a2f8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/complex-plan/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/complex-plan/tests.txt",
+      "sha256": "999603288a2374d392cbb38d7811e2a4aec698068f2032fab9323c2b96291939",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-2026-09-19-r2/run.json",
+      "sha256": "9a64cbff349333e50c2b199beb931b2fc1b4851b186b4f86b94617e5022c9b14",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-review-gate-2026-09-19/high-risk-implementation-gate/after.json",
+      "sha256": "631858c13e95b037156e3c1bae25d9ba4636ca4f0faab43cf0e12974e7be40d7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-review-gate-2026-09-19/high-risk-implementation-gate/before.json",
+      "sha256": "c34951c6785ae4aad81a6edc9d238a4309556941946350d4257682b8cbdd70d3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-review-gate-2026-09-19/high-risk-implementation-gate/events.jsonl",
+      "sha256": "9ef750ae981a74ea744beb6934e61eeb6e62f624dd91f77cc158e5e4c865755e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-review-gate-2026-09-19/high-risk-implementation-gate/final.txt",
+      "sha256": "4807094e93a6a83a8a7c30b234d50fb9012e4e3830d78be7fe392ca962d631c3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-review-gate-2026-09-19/high-risk-implementation-gate/request.txt",
+      "sha256": "c40f58d0d639f708cd438d86b2de216cda2a38c7bdfd2ae3b8fec8dd06934a3a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-review-gate-2026-09-19/high-risk-implementation-gate/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-review-gate-2026-09-19/high-risk-implementation-gate/tests.txt",
+      "sha256": "ba18d17e256a4d6550548b857aa883e1d1dc42c5b8b47f07d6b90437c4cc1ab6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/behavior-review-gate-2026-09-19/run.json",
+      "sha256": "97fc2a74c479d9c854eb607c2b264a10161a7aa4c7a8808b568a77e6811cfb5f",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/independent-review-2026-09-19.md",
+      "sha256": "f688660bd8a2b3e97efbc2fc7721d87c1f0b17b42d592e0765dbd9b487f02bca",
+      "role": "release verification evidence"
+    },
+    {
+      "path": "docs/evidence/native-coexistence-2026-09-18.json",
+      "sha256": "f7e2fccb9a214a011459f91347531b341ec5a4452353a113f5951c098994c9b8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/native-final-2026-09-19.json",
+      "sha256": "5d56d5d919be892856c9a6514c22742ef28294fe9ad35396ffdfbb2b5ae498af",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/native-lifecycle-2026-09-18.json",
+      "sha256": "44087d811f8d838c1858d9a7f187dfaa98aa95585c2c17906a7703fa4a3f53d9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/repository-settings-2026-09-19.json",
+      "sha256": "c4d91d8510cd7cb1283767026f0b8ca65da83ccbef4be9ad1792d69be71967bf",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/01/events.jsonl",
+      "sha256": "ec816bd7de257efafd711b4504d1b0220a0768c58d51266a57472bf07f46f59f",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/01/request.txt",
+      "sha256": "7c745d03c8858d632e6bd34765ced7a81b0f8b51ef89f34b4a5637e07f9267f7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/01/response.json",
+      "sha256": "a64192265147b59e6f2732df73303bd54a92992774dfdd805a0a2fbc5b94940b",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/01/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/02/events.jsonl",
+      "sha256": "87fd6abeb529f348ee5783f819606ef310dc7b951ae8bc9e35f101c4df4d786e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/02/request.txt",
+      "sha256": "660d6a42c7bdd62e0083f3d0decb7ee256c52f806702fe0fabdb7db7d7902e2e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/02/response.json",
+      "sha256": "911f7b4ccc47ec3b76e9e5b7d355d425e66805f0c4f9b00852a8c2ccd14152e9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/02/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/03/events.jsonl",
+      "sha256": "8340da0c688904f203799eedab30533e6e27927aaf13c3776d42012fb1a753c3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/03/request.txt",
+      "sha256": "0add314308e568aead6b90004694496a325be4d7b5539b40347c13ad5bb7b62c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/03/response.json",
+      "sha256": "99543c00666bdd1dd6df0333f056f5a886871781ada4ce6a322f36cfa174e117",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/03/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/04/events.jsonl",
+      "sha256": "3d28f3488337045dc0625b69b014c325cc8d191ecfe7a0abe3b7c5dfe8454d3e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/04/request.txt",
+      "sha256": "17cbbebafb69228b992f162f52b152b63b0b378e89b90af4c90cda760cc6c858",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/04/response.json",
+      "sha256": "e27d58ad018edec8a2742265fea904f015d92b101993b0cc7f54943b56b67412",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/04/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/05/events.jsonl",
+      "sha256": "d7100601fa782e94c7cb3a67ba894a08baa4a4a47187df4dcfe29158aa1f547a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/05/request.txt",
+      "sha256": "9e3579f102e155d949dcc4a6b22ac9567499174138e4abd4723d589184753af7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/05/response.json",
+      "sha256": "461d081f3831bf4ff87c42fee90f5739417a2bd9731980b143e404ae2d16ed13",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/05/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/06/events.jsonl",
+      "sha256": "c37c0e247e60fd7eb1c94229f200594abc7ba4757005b2001376ceb200aca7c2",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/06/request.txt",
+      "sha256": "a312fb255bbf35088c7866f45c232efb3ec9e2443538ac96b3e3af1e6786a20a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/06/response.json",
+      "sha256": "62460d0cf0202473fa2132520f1fd721e5df0defe36c1b14580747f7dbcc8410",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/06/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/07/events.jsonl",
+      "sha256": "2391843d751230b13f51fd0ceebff146d433a4efae1d1d1a9d37fb605af09436",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/07/request.txt",
+      "sha256": "22609fbf4a152ebba46dfbc3444f49b15d167a4fad2ece0917a77c7529df80e5",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/07/response.json",
+      "sha256": "d6d0d72a0978a407a78832350ea448aeb04986583785705cbeeeb42c755aecbc",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/07/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/08/events.jsonl",
+      "sha256": "65f2dcada7c84f888a9d6a89f446b27a00def40ccb89c236d86352d8e32762f8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/08/request.txt",
+      "sha256": "93787d4b2a08062f1f10790ea550b58cf10f899a5d5e804a40a2a67fc860cb7a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/08/response.json",
+      "sha256": "609cd87dedf56a180532affd33fb425679381664d0d5fb75beb45dabc66a677c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/08/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/09/events.jsonl",
+      "sha256": "b94fdbe931f346d6ab166a34deb27b21e214115717b21a5c16cde4670f15bfd6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/09/request.txt",
+      "sha256": "4052abfd93cd9bb1a85a94cf0287bd79db7ee6422503e1309fb93c86bd777b98",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/09/response.json",
+      "sha256": "b700552b9adef096a370b333a0e344b76b5536d0ba0ee9ee275ece2013f6f84d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/09/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/10/events.jsonl",
+      "sha256": "c21d5f719c87649f9f89b21a36a02ffc4aacaa374274b47c0fa08784a8e22d36",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/10/request.txt",
+      "sha256": "62503fb3542b7d7d5e9ab5b8b0a2740a5f52cb7bcebccfbed5dd2ea2bf974eed",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/10/response.json",
+      "sha256": "2c43bec1a38c88097b5ed86d35f43179f627f752a8a890436738432c5fd7a1af",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/10/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/11/events.jsonl",
+      "sha256": "ea4887aed9c07c76c130ea56fb69fbef9068d2f8af0ba9d8aae6880a5fb9a4ed",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/11/request.txt",
+      "sha256": "40753de993ff6c042788282a7767c8c337c72ccdead54507d8c44fc830e12e8a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/11/response.json",
+      "sha256": "b6ea72e0e7783d4c39fa1558ecd200593feceb7496ecf7ccdc48cd243f03528a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/11/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/12/events.jsonl",
+      "sha256": "b6180be9f3dbf9af3eb4cdd1923ae18d69e69111ca30aab8cf391e3a5914c0d0",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/12/request.txt",
+      "sha256": "d6af631cc13867b669682de346e9e38879008be42e8c1f2d139e25074b5d6aba",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/12/response.json",
+      "sha256": "a5430ceda02bf5c305e9f7d198074c85081e6bb193d98763b4ae5752ef3227de",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/12/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/13/events.jsonl",
+      "sha256": "688375a571059989cee41c844dbced91c0be54643991d66b21c835e47e3bbbf2",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/13/request.txt",
+      "sha256": "bf2b636910ef73962f98350a8fc0fe910697145658a6c80becf3f45ad69a8577",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/13/response.json",
+      "sha256": "59587a244f6f7b5eef50336cae2c562c4f92b10678499acdf9ed5184d31c5fd6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/13/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/14/events.jsonl",
+      "sha256": "93ddafc7d60fd709eb0a7613ac892240951bac85b6e9e6446af6d631b0a20c13",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/14/request.txt",
+      "sha256": "479a009a69fe8636266ec5dc53e104b5d7b22248305de147f8930bb09805f65a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/14/response.json",
+      "sha256": "c333e02fdedfd7adbf5a2fe0af837b3fc9c7b68b1019458c6910a8bc6d0fb72c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/14/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/15/events.jsonl",
+      "sha256": "b3befd9b5f1568e24a026209adcdda55eeaa51c3ea76165e8aa777cb8dd42162",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/15/request.txt",
+      "sha256": "f2fd7e06290ab714555fb8fef12eba61431741fc2670e66dbe2a2743c8d9e94a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/15/response.json",
+      "sha256": "c4c087e71f84673487a79dbe20c89c827cfce75d4734135579768aad9daec6b1",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/15/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/16/events.jsonl",
+      "sha256": "bea6e6cff314e7092f207e3aadaac2670566ec68557b23b6108fd531f721445e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/16/request.txt",
+      "sha256": "2995aee2579891290a2a50bc242f9c934360f5617d283f94a6338a118393fafd",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/16/response.json",
+      "sha256": "5c5236e6eb64890b4d0fabe68044b9cfe819cd37ec059317304fcd4cc05e4603",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/16/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/17/events.jsonl",
+      "sha256": "c7ad233d1d97aca5150b92991e97b1a6e6845c385c7157ee43f133f54fd06d17",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/17/request.txt",
+      "sha256": "9cb25166fbc228c249c7e3877d1c26fb07b9ae3aaca21aa048b8842752c12762",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/17/response.json",
+      "sha256": "1046be7619b505f8ae9f6c6bafc009da0e5c8dae94ce14c05221e02f093b2f65",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/17/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/18/events.jsonl",
+      "sha256": "363b860e85acef071317fa62231b84ef7949aa1716fdc470ce5ddec861d8e9b4",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/18/request.txt",
+      "sha256": "9d04a14c2283bfa98fba6429f8efbf63806293697dd39d7657050fa3ce78b65c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/18/response.json",
+      "sha256": "00b894b5aabf2cf7b15bff01374b23b7c5c30e42ea9fe61a497151473ac2d259",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/18/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/19/events.jsonl",
+      "sha256": "65709ed8c46a757125822e99c003a29cafebba8f9a29afec1c3b5b1b8aef5a57",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/19/request.txt",
+      "sha256": "d6e590ed043d20215f46d83a0ce240e2982910a2f20c2e5f3b88498354e277d3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/19/response.json",
+      "sha256": "851ec5588d0ceed0190b690f674e36b7de793f2ed2e845ea1b2df37b45dfc83d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/19/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/20/events.jsonl",
+      "sha256": "8b925f08f60b625460c544defc656f667ae1ce07fe3d0ff06d47a24da32035e6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/20/request.txt",
+      "sha256": "c7401c40422440cbc853640af42bd2ace4890a4b667d8bc0a08f320f2910db2e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/20/response.json",
+      "sha256": "7d4baabc5aa6f93e079df5117b89532e4941a3993ce0b594ca95772f6ff98d86",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/20/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/input.json",
+      "sha256": "8617c18ac5c183f986fdc6559235e5f75b9065bd22c21f793682881baae9c435",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/observations.json",
+      "sha256": "2d3de514ebabe0f3a2e70472a1f8083eb1d8016061abf71acfa6e278b1f57ef7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/run.json",
+      "sha256": "d599c90fed0d651f632cf9f6e5a5b6c07fbce4b844e38e6bf032262cb309de83",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18-r2/score.json",
+      "sha256": "0cae66d9d9c1abd743c6a63c94bce9c6fd43c1c88c4e2cca1d1ee1c90b27c667",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/01/events.jsonl",
+      "sha256": "9909f903cbc12e6fb4aa8ca38ab3778117332f177dc89c2f1fbc1dd5372cf8d1",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/01/request.txt",
+      "sha256": "d9e1b49fdb90bb2f8e25258c693aa43308a5f2cd5c4a9235ca888acddecb5a99",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/01/response.json",
+      "sha256": "a64192265147b59e6f2732df73303bd54a92992774dfdd805a0a2fbc5b94940b",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/01/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/02/events.jsonl",
+      "sha256": "afd8ac85e079495e8fb386c13143f1168defaec821feed7611eaf7e4aa7fa936",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/02/request.txt",
+      "sha256": "8cb70ca54161fcdfcc37c736a12f08a41369b1d8300b2890e108304e9dacce2e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/02/response.json",
+      "sha256": "911f7b4ccc47ec3b76e9e5b7d355d425e66805f0c4f9b00852a8c2ccd14152e9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/02/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/03/events.jsonl",
+      "sha256": "82949ab768aa4c304cceb5df5fdfcb7b94c2a16098a70483ee9f01f972607ba3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/03/request.txt",
+      "sha256": "4539a033a873280ae6411bcf88fffbc5b091044ff007f0cf84991677d038c292",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/03/response.json",
+      "sha256": "3e3836533f8f8c83925b3f20ff9b8a631705b40f9f53b6c0ca9b352f337f7171",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/03/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/04/events.jsonl",
+      "sha256": "ce239b7ae4c5bded16fcfe0ec80904339b85163e4d7305e7d9e4bb9ffda983b8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/04/request.txt",
+      "sha256": "ecac8cc2d95fefc623b22c3165db98a4abe78be497abc4fbd3903ebcf60511c8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/04/response.json",
+      "sha256": "e27d58ad018edec8a2742265fea904f015d92b101993b0cc7f54943b56b67412",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/04/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/05/events.jsonl",
+      "sha256": "294e64cf506e01bbcb4dfedc5435a3af516af284ef6ab591c00ebdeaa6156e1b",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/05/request.txt",
+      "sha256": "df2d9e30313a1df640253992cda4a63a515aabe23e5d0b56e67962a525fbaef0",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/05/response.json",
+      "sha256": "461d081f3831bf4ff87c42fee90f5739417a2bd9731980b143e404ae2d16ed13",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/05/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/06/events.jsonl",
+      "sha256": "3b27499df53fc438fd8c6606fbaf54362ebe180847f120fd8a0f913323b82f31",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/06/request.txt",
+      "sha256": "695ae4550f95d2a7a4ad886adc2e2f1b3a8c6377af89692208ee6709542fd913",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/06/response.json",
+      "sha256": "62460d0cf0202473fa2132520f1fd721e5df0defe36c1b14580747f7dbcc8410",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/06/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/07/events.jsonl",
+      "sha256": "1d20ee4cdcb680e9a5269a922c1849a3d5b09556e4658d2ce8501cc54566ccb4",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/07/request.txt",
+      "sha256": "c5e59c4f552d4271632c28a0b00848e33cd84927b84580e713764ff0108b6bc5",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/07/response.json",
+      "sha256": "d6d0d72a0978a407a78832350ea448aeb04986583785705cbeeeb42c755aecbc",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/07/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/08/events.jsonl",
+      "sha256": "742b09b5b4338317edadb5833883c737e340b7f925d15a090842627549cce531",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/08/request.txt",
+      "sha256": "3c70c2bdaa1e55239ac6470b82ac116a420ad7a741c8a5d57e5151aa71c4a8da",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/08/response.json",
+      "sha256": "609cd87dedf56a180532affd33fb425679381664d0d5fb75beb45dabc66a677c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/08/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/09/events.jsonl",
+      "sha256": "cfc1f521673471c480eaa53b01ef15d6e9dd02db8d310a429c5de62524d98ba8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/09/request.txt",
+      "sha256": "799ed700c7bc565d0e4da2ceea798a68414fb3a207fd66b2add19eb88aae560e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/09/response.json",
+      "sha256": "b700552b9adef096a370b333a0e344b76b5536d0ba0ee9ee275ece2013f6f84d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/09/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/10/events.jsonl",
+      "sha256": "342d90501abfc8c2fec29237635531883da36e8b009d53cb593c29b9d2e1bd5c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/10/request.txt",
+      "sha256": "7a754822373a2a3e07be098657038fe40fee5b759688df2a769fe32efff869e1",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/10/response.json",
+      "sha256": "2c43bec1a38c88097b5ed86d35f43179f627f752a8a890436738432c5fd7a1af",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/10/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/11/events.jsonl",
+      "sha256": "d123c6b78c00fb7674ef3fa6fea8168b98a7417e9db25e623a87c8343813c4a6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/11/request.txt",
+      "sha256": "11dc5e51fef18fb18be4c5a561acce4edbdf91ed765d1359b96d8c1208c571ec",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/11/response.json",
+      "sha256": "b6ea72e0e7783d4c39fa1558ecd200593feceb7496ecf7ccdc48cd243f03528a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/11/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/12/events.jsonl",
+      "sha256": "17b429b318ac5284b9b9263800581405165364c152b9779adc5d8d85c792eb1f",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/12/request.txt",
+      "sha256": "eb30dc12ba3a69d420023e91f4ba6d5c52fe60aa36906898859b74dcfb7e6fc3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/12/response.json",
+      "sha256": "a5430ceda02bf5c305e9f7d198074c85081e6bb193d98763b4ae5752ef3227de",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/12/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/13/events.jsonl",
+      "sha256": "47ae6a4173d0529c5579fd4f86bb4ef8899b922ae21bdfbf21d7f65afa02c1c7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/13/request.txt",
+      "sha256": "1b88a409c0fa15e762c94b9b4dc71f466daca431b10ba8e32826aa9961c2292c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/13/response.json",
+      "sha256": "59587a244f6f7b5eef50336cae2c562c4f92b10678499acdf9ed5184d31c5fd6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/13/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/14/events.jsonl",
+      "sha256": "c73d6fb669593db142a3590292229d7b41808976bf90bba85a342016a685962b",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/14/request.txt",
+      "sha256": "a1b674c6d9eb30ba31e1bcde85a158fac111c46dd0dd6293d5885a4ddb174a35",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/14/response.json",
+      "sha256": "e1e7c6475b8c7fb5fcaad8de2af56631b61b2e528abc39695383103f4a32c708",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/14/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/15/events.jsonl",
+      "sha256": "9ff0a78d965259109c67b186257e863266496419a3659b1ba4a30292ee3692cd",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/15/request.txt",
+      "sha256": "a79e97e82b84395b4a0c98f6444755c3bd1e96595399714b4d25d7bc859bd944",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/15/response.json",
+      "sha256": "c4c087e71f84673487a79dbe20c89c827cfce75d4734135579768aad9daec6b1",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/15/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/16/events.jsonl",
+      "sha256": "3bd5b40a123f93abcb5b42407476a73aff377a51bd609a734e87fe31ac3e723a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/16/request.txt",
+      "sha256": "748fa3c4d170e0773e47983335cbb9060dae162b03527f1abf4ba135cd147cb8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/16/response.json",
+      "sha256": "5c5236e6eb64890b4d0fabe68044b9cfe819cd37ec059317304fcd4cc05e4603",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/16/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/17/events.jsonl",
+      "sha256": "a47289511b63fb3186407a02ff80e70eb1b8e24cf2c0d46567b2050feb4d4ba5",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/17/request.txt",
+      "sha256": "fc1a9a43f123c74a3a3b164ffca814a141b7d6460545a54ecde5eef149203216",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/17/response.json",
+      "sha256": "0bd0bd92b62481e393309c22913e6c82f541f6b003f7e5160a2dd07c74b7c043",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/17/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/18/events.jsonl",
+      "sha256": "1063a6ca25236d5bc023d7efb059f516a02dc726b2dacc448c2c63a56663b622",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/18/request.txt",
+      "sha256": "4baad05328f245cfe2bb77213b4304d0a71832cea8a1fb29123496952838c6f3",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/18/response.json",
+      "sha256": "00b894b5aabf2cf7b15bff01374b23b7c5c30e42ea9fe61a497151473ac2d259",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/18/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/19/events.jsonl",
+      "sha256": "d846013469712735a023f3d03ced6b600989da9daf0d75f129f4dcd5944c4439",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/19/request.txt",
+      "sha256": "06c52d10e6a40b388c8baf36e6624062a448e78efec03da3160beaf5d0543f0a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/19/response.json",
+      "sha256": "851ec5588d0ceed0190b690f674e36b7de793f2ed2e845ea1b2df37b45dfc83d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/19/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/20/events.jsonl",
+      "sha256": "09520c48d3ef425d1ba614b88494be133a1acf7a4ac76c31e79437d477841c39",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/20/request.txt",
+      "sha256": "6b0af7f916d0628861bfd25954b71432fc07bccaeb457d420365ff4782600699",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/20/response.json",
+      "sha256": "7d4baabc5aa6f93e079df5117b89532e4941a3993ce0b594ca95772f6ff98d86",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/20/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/input.json",
+      "sha256": "58c204cab50af599874e56ea52d5caeed6210871354a52053ffab7579ea9527f",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/observations.json",
+      "sha256": "2d67dd64c807300137c06ba6597eebf733d895e1971fb1ebe4a709df5c5621d9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/run.json",
+      "sha256": "1440212715906ac68c503f44ea17e54fd92ecf6db316af61c7f37892402d7b0f",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-18/score.json",
+      "sha256": "4781702d9c5816927c5c380426712e46cce6741cd7c3164e42d636344669a462",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/01/events.jsonl",
+      "sha256": "863c5ae1e404247cc68a0d22d4b2fae3091651ce4ed2c1dc42b1d105ecc5638d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/01/request.txt",
+      "sha256": "b63c3bba1b642fad1781b6f74debd585248de0f0e2d27ab5188b79d5baf1df12",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/01/response.json",
+      "sha256": "a64192265147b59e6f2732df73303bd54a92992774dfdd805a0a2fbc5b94940b",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/01/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/02/events.jsonl",
+      "sha256": "b1f8d1622a72f8877cd63322721f7da55c0760db4f12b640a7580936a6244595",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/02/request.txt",
+      "sha256": "7f039ffed307691a45240e18559e187ac6ad7f83ad55134b735822e29dc1b069",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/02/response.json",
+      "sha256": "911f7b4ccc47ec3b76e9e5b7d355d425e66805f0c4f9b00852a8c2ccd14152e9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/02/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/03/events.jsonl",
+      "sha256": "08e3f1698eb57f439ba8a9a49cf77678c7acf062eba1b9569cfedec01d0990f7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/03/request.txt",
+      "sha256": "ece0e0162d927d03e5ae75c76a2b3a025940e9355b780c333f86b98bba9f3345",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/03/response.json",
+      "sha256": "99543c00666bdd1dd6df0333f056f5a886871781ada4ce6a322f36cfa174e117",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/03/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/04/events.jsonl",
+      "sha256": "7cf1dc9a8d44402614174211be041fb2e3543b292899693d31399c0bcfab9326",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/04/request.txt",
+      "sha256": "40c49f98abd0f9d92355c788391aac7fbbec59fa5c1bca4c16ef5356ffc8524f",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/04/response.json",
+      "sha256": "e27d58ad018edec8a2742265fea904f015d92b101993b0cc7f54943b56b67412",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/04/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/05/events.jsonl",
+      "sha256": "f22592a3163d2d396292069d3c9338d7d9065cfaf1d2318f697d6d97840dafe2",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/05/request.txt",
+      "sha256": "56de111d8fff840ac282a2d1dac905f24ac37df6259a7c83aced962813776c7e",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/05/response.json",
+      "sha256": "461d081f3831bf4ff87c42fee90f5739417a2bd9731980b143e404ae2d16ed13",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/05/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/06/events.jsonl",
+      "sha256": "29b21bda2dd345e6a2fff82fe22872e575bb7185c41d59d26489556b31196fbc",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/06/request.txt",
+      "sha256": "008ebb583d16e75ea4315606afdb65388a2ac074a62be60172c0b651faba2e0b",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/06/response.json",
+      "sha256": "62460d0cf0202473fa2132520f1fd721e5df0defe36c1b14580747f7dbcc8410",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/06/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/07/events.jsonl",
+      "sha256": "cfe97986fed80dedf0f7b4a4062d7f77e746199e6bd2208bd7e2bc7a879bde68",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/07/request.txt",
+      "sha256": "618f52606d0df687bffeb19aa8dbcbb91ec0cc4c0f62880557b79a6c425167a9",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/07/response.json",
+      "sha256": "d6d0d72a0978a407a78832350ea448aeb04986583785705cbeeeb42c755aecbc",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/07/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/08/events.jsonl",
+      "sha256": "8ab79d8e358381929e0777fa23163ed0195ea1acfc0c81ab3bb7bfd76813ac1a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/08/request.txt",
+      "sha256": "89d47cdf41a8a7b2d19a0bbd36a7c7b37b96e8558d6e23ee0acca326528a3070",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/08/response.json",
+      "sha256": "609cd87dedf56a180532affd33fb425679381664d0d5fb75beb45dabc66a677c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/08/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/09/events.jsonl",
+      "sha256": "acaec73f213b7e0d7459ec6a00f4c09a8a80060138a87b8db803bb2b3ee81b7d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/09/request.txt",
+      "sha256": "f6d7b91187b6ec5b3714b9e5d04097074801ceba1c6914d312303f19cf92e0d2",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/09/response.json",
+      "sha256": "b700552b9adef096a370b333a0e344b76b5536d0ba0ee9ee275ece2013f6f84d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/09/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/10/events.jsonl",
+      "sha256": "3efbb9a927a36bd93a903ea449a3f5152f9973bd5d02023ccae3f119df8523fc",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/10/request.txt",
+      "sha256": "83fd8d8b5168283c32626e90d53182a44914055548cebd58890db26484d4b084",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/10/response.json",
+      "sha256": "2c43bec1a38c88097b5ed86d35f43179f627f752a8a890436738432c5fd7a1af",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/10/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/11/events.jsonl",
+      "sha256": "ed7be7fc826e8a35372efbfb273b2271ea9268a64b636f8c05957f316f384061",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/11/request.txt",
+      "sha256": "9e8805934f35f95c5866eef7b651e74c6e8dad766f4aa054fdb48e21642bdb80",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/11/response.json",
+      "sha256": "b6ea72e0e7783d4c39fa1558ecd200593feceb7496ecf7ccdc48cd243f03528a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/11/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/12/events.jsonl",
+      "sha256": "edce0b3886a278dee69854e8ddfa210e0028f1277088ca4f422049b95a3e600a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/12/request.txt",
+      "sha256": "76a8de9a80d370ba85340566e0881402e8e46513542942a888a9b24015c997bb",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/12/response.json",
+      "sha256": "a5430ceda02bf5c305e9f7d198074c85081e6bb193d98763b4ae5752ef3227de",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/12/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/13/events.jsonl",
+      "sha256": "73b4401a8db3b9b062a2ffd2a27a5351a3f227b50721eeb4dd88346ee87f7f80",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/13/request.txt",
+      "sha256": "0261142d93c0424ed3c6edf6a0b496ff28746e2069479ac124300ac967f4c9f7",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/13/response.json",
+      "sha256": "59587a244f6f7b5eef50336cae2c562c4f92b10678499acdf9ed5184d31c5fd6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/13/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/14/events.jsonl",
+      "sha256": "94051011ba8b7f3a399771170f380d44cba9d8492c932ba8a88e762e13ec8ee4",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/14/request.txt",
+      "sha256": "af7e878182a118db6dbc1c7b2500582a4a6135a04190db20341184c254b8bd39",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/14/response.json",
+      "sha256": "c333e02fdedfd7adbf5a2fe0af837b3fc9c7b68b1019458c6910a8bc6d0fb72c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/14/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/15/events.jsonl",
+      "sha256": "9caba68d6720643284d6692b68eb33b35a50993daa072c3a544f1c00eebb938a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/15/request.txt",
+      "sha256": "f35d9cce2ed7f2e5159afed0cbd551abf5817b0e5967d302e48192d2f6cc93e8",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/15/response.json",
+      "sha256": "c4c087e71f84673487a79dbe20c89c827cfce75d4734135579768aad9daec6b1",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/15/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/16/events.jsonl",
+      "sha256": "b27db4b1c68d18dbb0906f05aeed381ffbc77f38d51de4d827c2a9fcbb30190c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/16/request.txt",
+      "sha256": "8fa42d110cfe144438617c1eaf04cf8c98191bbc3111a274633d5aaa6983f77c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/16/response.json",
+      "sha256": "5c5236e6eb64890b4d0fabe68044b9cfe819cd37ec059317304fcd4cc05e4603",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/16/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/17/events.jsonl",
+      "sha256": "cac9cfa9bc6c91943f1658f80abdb7694b488324f3e3498f4f2beea7b39ad66c",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/17/request.txt",
+      "sha256": "fcc9694fdc20004d0acf51f242a0db40f4010f3a2bbf8b57876493549a71f889",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/17/response.json",
+      "sha256": "0bd0bd92b62481e393309c22913e6c82f541f6b003f7e5160a2dd07c74b7c043",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/17/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/18/events.jsonl",
+      "sha256": "610ecaee73153907c97723c77660a320ec2a048dfbeeca77a5042c98a5e6b2e6",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/18/request.txt",
+      "sha256": "d449f7cbf75afed15e05ddc54729491acbcb8b63c2be81152b84b07832ccdea2",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/18/response.json",
+      "sha256": "00b894b5aabf2cf7b15bff01374b23b7c5c30e42ea9fe61a497151473ac2d259",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/18/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/19/events.jsonl",
+      "sha256": "9edd9e84a5f4aa790de05a033968f690517ee3dd97533a8d7aba463c68a36602",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/19/request.txt",
+      "sha256": "c95689067f8be9c82d1d8bc5d82b2127ced4b8fd9245b780a9a1679400e49439",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/19/response.json",
+      "sha256": "851ec5588d0ceed0190b690f674e36b7de793f2ed2e845ea1b2df37b45dfc83d",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/19/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/20/events.jsonl",
+      "sha256": "38a9a1fc5d122e72d70d459fb69685fa2cdb78197e48b4095c882138df0ea122",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/20/request.txt",
+      "sha256": "5c7c9130a04b28ec21b6f47b7e99b40871a5830b7cbe627454ac85d051881769",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/20/response.json",
+      "sha256": "7d4baabc5aa6f93e079df5117b89532e4941a3993ce0b594ca95772f6ff98d86",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/20/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/input.json",
+      "sha256": "2e2990f4d86eb5e73e3b4280a7a53ebdd2128c424a9133ec240697ca20bc7663",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/observations.json",
+      "sha256": "c4a60edcf27f0cf975d588438b3d6cced6412024cda896cdfdd267a10d5904fe",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/run.json",
+      "sha256": "0e3b99ab1b07978d023eed2b6f52fd35a6f9e28e45ec031373a371b1a5d9475a",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/routing-skills-only-2026-09-19-r3/score.json",
+      "sha256": "e2a86e886dbcc3bbe99be39b456eb6a2e5f7f7faad81a8d0886462c7ed182e01",
+      "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/file-scope.md",
+      "sha256": "03202d2416f2332dda1356c77ce6333fbe46102e2d92a17669e93c81ac141e44",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "sha256": "2d28dcbc304d60eeabb2b9a962f871c5023f86a40f5afdee4d86ef57e95b7da1",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/publication.md",
+      "sha256": "67cb8dc33e9612260079621ffadc3bf1ce15174dd5d9656465294ffb7619d06b",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/releases/v0.1.0-beta.md",
+      "sha256": "e02920bf9b0f7517c381900ff1d1fb6c2ea36b3660d4b3a0476d3aa829328c42",
+      "role": "prepared public beta release notes"
+    },
+    {
+      "path": "docs/skill-names.json",
+      "sha256": "0380481129b4487a8a1dbb245c339c4a81376cd6249d041d7987aeccfe8a3632",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/skills.md",
+      "sha256": "c12dc907dd71fed573fd4bd016aeb8dd734f4062b95e359c997414bb14ac5b24",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/source-files.json",
+      "sha256": "670cc939a8923beb61c8fe59483f9faeb6187cd476c00b4994b76538a8b00647",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/sources.md",
+      "sha256": "980cdc784ada8346f1384a28e863efd63879a19cbae544d427beeb092201a2e0",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/troubleshooting.md",
+      "sha256": "a07f066add3d7a97c99b294f31abeceecea35e056a6f690df6a4423313ef3b32",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/upstream-comparison.md",
+      "sha256": "a3f541d341c2887a98531e1a631a9803fb3bab0d29424df057cbe32bec563fdc",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/validation.md",
+      "sha256": "969fcd583c31db6b58984316ac94e49345c93b3b63860bda4ca072826caba9e8",
+      "role": "public documentation and provenance"
+    },
+    {
+      "path": "evals/behavior/README.md",
+      "sha256": "9906251fdd1acf453dcd5e682add73f7a2c9cbc7b2b0dad238f6462fbe3d4279",
+      "role": "selection and behavior evaluation"
+    },
+    {
+      "path": "evals/behavior/live.py",
+      "sha256": "7c54e0d3cd1d4590dff9377f1eeda3a93f0bf754c9829870eb64c33971206acd",
+      "role": "selection and behavior evaluation"
+    },
+    {
+      "path": "evals/behavior/scenarios.py",
+      "sha256": "8e7cc4876730fc8dd95dc15b184e554433b883b8bc2020c86063cead0cb9ddc2",
+      "role": "selection and behavior evaluation"
+    },
+    {
+      "path": "evals/behavior/tasks.py",
+      "sha256": "282699baad096f8fb52f1ef53d15e55eec3af888bf352c3e990be58aaa78c6df",
+      "role": "selection and behavior evaluation"
+    },
+    {
+      "path": "evals/routing/README.md",
+      "sha256": "2845d10257732734bc1e066b3516c713cc83d11de50c164faf9665c6809eaf89",
+      "role": "selection and behavior evaluation"
+    },
+    {
+      "path": "evals/routing/cases.json",
+      "sha256": "e26ec111accbc28b11a5d6f138c4463e968a9eb65ea6cb9264d911e31eed8519",
+      "role": "selection and behavior evaluation"
+    },
+    {
+      "path": "evals/routing/routing.py",
+      "sha256": "126b851f9f6162b121112218c0a40c8e06c0235bc736309ea639881b260e31f8",
+      "role": "selection and behavior evaluation"
+    },
+    {
+      "path": "evals/routing/test_routing.py",
+      "sha256": "49bf348bd193e01c791e9092f0e594c6130dafe21c98fa655c8e70a27630f19e",
+      "role": "selection and behavior evaluation"
+    },
+    {
+      "path": "licenses/Superpowers-MIT.txt",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "role": "retained upstream license"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/.codex-plugin/plugin.json",
+      "sha256": "bffd9d01ec1488061e923d4f4e889b69459f40dc4eaf749bd4cd6a2fc21b183d",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/LICENSE",
+      "sha256": "3f12ebe00206deb002a7c5a03f66e59d46fe2fb2c6fa0e075704f6485fa6e92b",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/THIRD_PARTY_NOTICES.md",
+      "sha256": "7a889cc270d719188eb2a36273ff7f60f53b8d980f461853cb458f5ae504d6ab",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/licenses/Superpowers-MIT.txt",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-debug/SKILL.md",
+      "sha256": "50b1b589826afb4a4d8d50d2b23ae9671938830d4def155ea83336ac3e3b9706",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-design/SKILL.md",
+      "sha256": "c0eb21f445fd248e5d41d8681dd07a80c8c719d4d4f523db0cb97ed3b91dcdd7",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-execute/SKILL.md",
+      "sha256": "6c95218706f3cf43c39603dcee12b8c12ba2abf8a392710611034b1454af43df",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-plan/SKILL.md",
+      "sha256": "b1a68ba700460f8a10a636166c5809ba3cc1406f2fd828b55446ba6b846700a5",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-review/SKILL.md",
+      "sha256": "46647fc0be3de34304cbea663c30459d8925e6eeac8fe57da2f9396df32afe41",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-review/code-reviewer.md",
+      "sha256": "8458e90fc0f61f5d9835049e8407100fdcf6f4fd9a8b237e00ffcddcfba8ce39",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-review/quality-gates.md",
+      "sha256": "01c48a6bf4be6f14769372ce62d94adbdf244f0ce4774d347a632567812c1058",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-route/SKILL.md",
+      "sha256": "70cd6fc6d35ddd90bcfab32ccb23e25b699d20be612fc0d8cd9d3f8dd334b3e1",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-tdd/SKILL.md",
+      "sha256": "343faf1851b757f32385beb47fcb97c6e3e7b6be966eb7eee27a2ebf75dfbdb8",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-tdd/writing-good-tests.md",
+      "sha256": "c94777b2b64c2f98d84cddc19dcdb58e5f876ecccd9e882501772f4c62254014",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "plugins/codex-workflow-kit/skills/cwk-verify/SKILL.md",
+      "sha256": "096c3a14587eecd440aab382d2c7efa3ca11d3b2847747d29b6b7c1da3472029",
+      "role": "complete versioned runtime plugin"
+    },
+    {
+      "path": "scripts/check_public.py",
+      "sha256": "af25700276ab8b76dc514c16d739c6720c717c039ebf8663689dc8e2df59d343",
+      "role": "publication and lifecycle tooling"
+    },
+    {
+      "path": "scripts/release.py",
+      "sha256": "438c447a121321516dc20075e47edc4857d453e12dad6f89fe733daf4c908d1c",
+      "role": "publication and lifecycle tooling"
+    },
+    {
+      "path": "scripts/smoke_install.py",
+      "sha256": "3e985acff6dc46ee65068c7f913ea31de7404c4aacbe9e025fffea97b25970c5",
+      "role": "publication and lifecycle tooling"
+    },
+    {
+      "path": "templates/AGENTS.core.md",
+      "sha256": "daa36bf1a1eb0e4de604799126b9b9ee74779130f65b7046a7c61481ece684ee",
+      "role": "optional project rule fragments"
+    },
+    {
+      "path": "templates/profiles/explicit-delegation.md",
+      "sha256": "c9dc4f21fbbe711c0e5a0a3c7ea70efb09eb9d53829a0bf4feca4691f6f668a8",
+      "role": "optional project rule fragments"
+    },
+    {
+      "path": "templates/profiles/kiro.md",
+      "sha256": "146dc9adc30a0e145218b1af4505fa2f93633e1f5dd768c9999a2e7d0cf82d12",
+      "role": "optional project rule fragments"
+    },
+    {
+      "path": "tests/test_live.py",
+      "sha256": "3bb2632c6d3dbeedf8ee653d0fb530a9e8d8f9d39be6f0831433382e274d4c44",
+      "role": "offline tool regression tests"
+    },
+    {
+      "path": "tests/test_public.py",
+      "sha256": "621c6b19e73a1746367c5fcfd27da1e0c561b27681de99e3a33066572163441a",
+      "role": "offline tool regression tests"
+    },
+    {
+      "path": "tests/test_release.py",
+      "sha256": "66b0bf042db8877763ffb1042f038a086aaf46650771da5c559b48b5490dfd26",
+      "role": "offline tool regression tests"
+    }
+  ]
+}

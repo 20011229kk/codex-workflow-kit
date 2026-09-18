@@ -1,0 +1,9 @@
+test_different_id_and_tenant (test_permissions.Tests) ... ok
+test_other (test_permissions.Tests) ... ok
+test_owner (test_permissions.Tests) ... ok
+test_same_id_in_different_tenant (test_permissions.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

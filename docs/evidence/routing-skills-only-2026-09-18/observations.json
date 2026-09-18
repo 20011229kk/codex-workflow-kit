@@ -1,0 +1,114 @@
+{
+  "method": "offline-decisions",
+  "run_label": "routing-skills-only-2026-09-18",
+  "decisions": [
+    {
+      "id": "01",
+      "selected": []
+    },
+    {
+      "id": "02",
+      "selected": []
+    },
+    {
+      "id": "03",
+      "selected": [
+        "cwk-verify"
+      ]
+    },
+    {
+      "id": "04",
+      "selected": [
+        "cwk-tdd"
+      ]
+    },
+    {
+      "id": "05",
+      "selected": []
+    },
+    {
+      "id": "06",
+      "selected": [
+        "cwk-design"
+      ]
+    },
+    {
+      "id": "07",
+      "selected": [
+        "cwk-plan"
+      ]
+    },
+    {
+      "id": "08",
+      "selected": [
+        "cwk-execute",
+        "cwk-verify"
+      ]
+    },
+    {
+      "id": "09",
+      "selected": [
+        "cwk-debug"
+      ]
+    },
+    {
+      "id": "10",
+      "selected": []
+    },
+    {
+      "id": "11",
+      "selected": [
+        "cwk-review"
+      ]
+    },
+    {
+      "id": "12",
+      "selected": [
+        "cwk-verify"
+      ]
+    },
+    {
+      "id": "13",
+      "selected": []
+    },
+    {
+      "id": "14",
+      "selected": [
+        "cwk-review",
+        "cwk-verify"
+      ]
+    },
+    {
+      "id": "15",
+      "selected": [
+        "cwk-route"
+      ]
+    },
+    {
+      "id": "16",
+      "selected": []
+    },
+    {
+      "id": "17",
+      "selected": [
+        "cwk-execute"
+      ]
+    },
+    {
+      "id": "18",
+      "selected": []
+    },
+    {
+      "id": "19",
+      "selected": [
+        "cwk-tdd"
+      ]
+    },
+    {
+      "id": "20",
+      "selected": [
+        "cwk-verify"
+      ]
+    }
+  ]
+}

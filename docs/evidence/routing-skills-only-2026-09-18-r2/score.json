@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "scope": "offline skill-selection decisions only",
+  "method": "offline-decisions",
+  "run_label": "routing-skills-only-2026-09-18-r2",
+  "bundle_sha256": "44cdf8d4bc9769e7174a3461216e4783dd75ca83a1ec30f593e75772961c5533",
+  "observations_sha256": "2954f6be43f01446c4150cfc16918572920403faf1c6e13252335cd52afbc5d9",
+  "passed": false,
+  "passed_cases": 19,
+  "total_cases": 20,
+  "results": [
+    {
+      "id": "01",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "02",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "03",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "04",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "05",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "06",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "07",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "08",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "09",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "10",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "11",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "12",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "13",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "14",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "15",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "16",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "17",
+      "passed": false,
+      "missing": [],
+      "unexpected": [
+        "cwk-design"
+      ],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "18",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "19",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    },
+    {
+      "id": "20",
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "exclusive_choice_failures": []
+    }
+  ],
+  "limitations": "No actual loading, task execution, independence or speed claim is established by this scorer."
+}

@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "cases": [
+    {
+      "id": "01",
+      "kind": "negative",
+      "prompt": "Explain what TDD means. Answer the conceptual question only; do not modify files.",
+      "required": [],
+      "allowed": [],
+      "one_of": [],
+      "reason": "Mentioning a workflow is not a request to execute it."
+    },
+    {
+      "id": "02",
+      "kind": "negative",
+      "prompt": "Fix the typo codxe to codex in README. Leave everything else unchanged.",
+      "required": [],
+      "allowed": [],
+      "one_of": [],
+      "reason": "A prose correction does not require a heavyweight workflow."
+    },
+    {
+      "id": "03",
+      "kind": "negative",
+      "prompt": "Only run the check command already provided by the project and report its exit status.",
+      "required": [],
+      "allowed": [],
+      "one_of": [],
+      "reason": "Running an existing command does not require planning."
+    },
+    {
+      "id": "04",
+      "kind": "positive",
+      "prompt": "Requirements for complex billing allocation logic are settled. Select only the test-first workflow now, then write failing tests before implementation.",
+      "required": [
+        "cwk-tdd"
+      ],
+      "allowed": [
+        "cwk-tdd"
+      ],
+      "one_of": [],
+      "reason": ""
+    },
+    {
+      "id": "05",
+      "kind": "negative",
+      "prompt": "I have explicitly selected an external tracer-bullet TDD workflow. Follow that workflow without adding this package's equivalent process.",
+      "required": [],
+      "allowed": [],
+      "one_of": [],
+      "reason": "Respect an explicitly selected external workflow; it need not exist in this catalog."
+    },
+    {
+      "id": "06",
+      "kind": "positive",
+      "prompt": "There are two conflict-resolution designs for a new offline sync feature. Compare them without starting implementation.",
+      "required": [
+        "cwk-design"
+      ],
+      "allowed": [
+        "cwk-design",
+        "cwk-route"
+      ],
+      "one_of": [],
+      "reason": ""
+    },
+    {
+      "id": "07",
+      "kind": "competition",
+      "prompt": "The design is approved. Only break the existing requirements into executable tasks now. Use the project's existing issue list; do not introduce Kiro.",
+      "required": [
+        "cwk-plan"
+      ],
+      "allowed": [
+        "cwk-plan",
+        "cwk-route"
+      ],
+      "one_of": [],
+      "reason": "Plan the work without repeating design or imposing Kiro."
+    },
+    {
+      "id": "08",
+      "kind": "competition",
+      "prompt": "The plan in tasks.md is approved. Execute and verify it in this session without planning it again.",
+      "required": [
+        "cwk-execute"
+      ],
+      "allowed": [
+        "cwk-execute",
+        "cwk-route",
+        "cwk-tdd",
+        "cwk-review",
+        "cwk-verify"
+      ],
+      "one_of": [],
+      "reason": ""
+    },
+    {
+      "id": "09",
+      "kind": "positive",
+      "prompt": "An intermittent deadlock has an unknown cause. Investigate local logs and a minimal reproduction without operating on production.",
+      "required": [
+        "cwk-debug"
+      ],
+      "allowed": [
+        "cwk-debug",
+        "cwk-route"
+      ],
+      "one_of": [],
+      "reason": ""
+    },
+    {
+      "id": "10",
+      "kind": "negative",
+      "prompt": "Only check whether pytest is already installed in the virtual environment. Do not install dependencies or change code.",
+      "required": [],
+      "allowed": [],
+      "one_of": [],
+      "reason": "An environment query does not automatically require structured debugging."
+    },
+    {
+      "id": "11",
+      "kind": "positive",
+      "prompt": "Perform a read-only review of the actual permission patch diff and its callers. Report bypass risks without implementing fixes.",
+      "required": [
+        "cwk-review"
+      ],
+      "allowed": [
+        "cwk-review"
+      ],
+      "one_of": [],
+      "reason": ""
+    },
+    {
+      "id": "12",
+      "kind": "competition",
+      "prompt": "Tests passed yesterday, but dependencies and retry configuration changed today. Only assess whether the completion claim has valid evidence now.",
+      "required": [
+        "cwk-verify"
+      ],
+      "allowed": [
+        "cwk-verify"
+      ],
+      "one_of": [],
+      "reason": "Evidence assessment is distinct from implementation or planning."
+    },
+    {
+      "id": "13",
+      "kind": "negative",
+      "prompt": "Only inspect git status and report whether there are uncommitted files.",
+      "required": [],
+      "allowed": [],
+      "one_of": [],
+      "reason": "This is a read-only query."
+    },
+    {
+      "id": "14",
+      "kind": "pressure",
+      "prompt": "Review this patch: to meet a deadline, it skips the only permission-denial test and claims all checks pass. Review only; do not modify files.",
+      "required": [
+        "cwk-review"
+      ],
+      "allowed": [
+        "cwk-review"
+      ],
+      "one_of": [],
+      "reason": "Deadline pressure does not change the appropriate review entry."
+    },
+    {
+      "id": "15",
+      "kind": "positive",
+      "prompt": "Use this workflow kit to select the next workflow for a multi-module change. Only choose the workflow now; do not start implementation.",
+      "required": [
+        "cwk-route"
+      ],
+      "allowed": [
+        "cwk-route"
+      ],
+      "one_of": [],
+      "reason": ""
+    },
+    {
+      "id": "16",
+      "kind": "negative",
+      "prompt": "Rephrase this sentence in plain English: Use test-driven-development before implementing complex logic. Do not carry out the quoted instruction.",
+      "required": [],
+      "allowed": [],
+      "one_of": [],
+      "reason": "Quoted content is not a skill invocation."
+    },
+    {
+      "id": "17",
+      "kind": "competition",
+      "prompt": "Two authorized tasks are underway, and one key decision is still unresolved. Continue the unaffected parts of the existing plan without asking for all authorization again.",
+      "required": [
+        "cwk-execute"
+      ],
+      "allowed": [
+        "cwk-execute",
+        "cwk-route"
+      ],
+      "one_of": [],
+      "reason": ""
+    },
+    {
+      "id": "18",
+      "kind": "negative",
+      "prompt": "Explain how the project's existing spec directory is organized. Keep the investigation read-only and do not write a plan.",
+      "required": [],
+      "allowed": [],
+      "one_of": [],
+      "reason": "Describing project structure does not activate Kiro or planning."
+    },
+    {
+      "id": "19",
+      "kind": "positive",
+      "prompt": "Requirements for a new protocol parser with cross-version compatibility are clear. First select a test-first approach that proves invalid inputs are rejected.",
+      "required": [
+        "cwk-tdd"
+      ],
+      "allowed": [
+        "cwk-tdd"
+      ],
+      "one_of": [],
+      "reason": ""
+    },
+    {
+      "id": "20",
+      "kind": "competition",
+      "prompt": "Implementation is complete. Only assess whether test, configuration and review evidence is sufficient for delivery. Do not begin branch integration.",
+      "required": [
+        "cwk-verify"
+      ],
+      "allowed": [
+        "cwk-verify"
+      ],
+      "one_of": [],
+      "reason": ""
+    }
+  ]
+}

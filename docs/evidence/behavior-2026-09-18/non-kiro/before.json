@@ -1,0 +1,5 @@
+{
+  "WORK.md": "# Work\n\nImplementation planning pending.\n",
+  "AGENTS.md": "Use WORK.md as the only implementation task record. Use existing docs/design.md for design. Do not introduce another spec or plan directory.\n",
+  "docs/design.md": "# Approved CSV export design\n\nExport the existing in-memory list as UTF-8 CSV with columns id and name. Quote commas and embedded quotes using the standard library. Do not modify the source list. A missing name is an empty cell. Implementation is limited to export.py and its unit tests; no network or filesystem write API is needed.\n"
+}

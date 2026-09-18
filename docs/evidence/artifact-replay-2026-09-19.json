@@ -1,0 +1,102 @@
+{
+  "scope": "Offline artifact recheck after supervisor environment isolation fix; no new model sessions",
+  "isolated_home": true,
+  "auth_in_checks_home": false,
+  "cases": [
+    {
+      "source": "docs/evidence/behavior-2026-09-18/authorized-continuation",
+      "after_sha256": "d75d21c519f04a48d67dc1490c0dea7ad409903e7f1d5143bd38d1333f54d0a0",
+      "checks": {
+        "unblocked_implementation": true,
+        "separate_pending_state": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-2026-09-18/complex-plan",
+      "after_sha256": "49b8fe0b264625e9880d0af43c08ce9571feb61f192ac5339b18f22014ed2ff9",
+      "checks": {
+        "parser_and_cli_contract": true,
+        "single_record": true,
+        "tasks_completed": true,
+        "tests_pass": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-2026-09-18/high-risk-review",
+      "after_sha256": "8e5e1e248fd1e7e5ce265f4f904f43582709b827b1688ee7f3c5829c8c6908b3",
+      "checks": {
+        "no_file_mutation": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-2026-09-18/non-kiro",
+      "after_sha256": "00ef7221d5928a2a5edc38d251b31dcdcb373f2d008aa27b979a0f5e80ad786f",
+      "checks": {
+        "updated_existing_plan": true,
+        "only_authorized_file_changed": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-2026-09-18/regression",
+      "after_sha256": "1abcca685cdc299754544b27f8a8162e818b1ca49cbc41c299c90777b99269a1",
+      "checks": {
+        "boundary_contract": true,
+        "tests_pass": true,
+        "regression_rejects_original": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-2026-09-18/small-edit",
+      "after_sha256": "1b8773a6967c499b1193c273e244f18a766e961fc8c2a0330410ccd7f323d873",
+      "checks": {
+        "exact_requested_edit": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-2026-09-18/superpowers-coexistence",
+      "after_sha256": "61489ea1b8118cd93c75caf05a085b973f997165e6b7d26aa573f0b24c2ae14d",
+      "checks": {
+        "updated_existing_plan": true,
+        "only_authorized_file_changed": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-2026-09-19-r2/authorized-continuation",
+      "after_sha256": "1afaa54a745d5e95b9c1f1e1ef1c0f633cf6717551c6d72215a823777fabfee9",
+      "checks": {
+        "unblocked_implementation": true,
+        "separate_pending_state": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-2026-09-19-r2/complex-plan",
+      "after_sha256": "277111c9d9143a17c57b98eb68fa2e8a7f683b422e294ffaa6190e9fc71229b3",
+      "checks": {
+        "parser_and_cli_contract": true,
+        "single_record": true,
+        "tasks_completed": true,
+        "tests_pass": true
+      },
+      "passed": true
+    },
+    {
+      "source": "docs/evidence/behavior-review-gate-2026-09-19/high-risk-implementation-gate",
+      "after_sha256": "631858c13e95b037156e3c1bae25d9ba4636ca4f0faab43cf0e12974e7be40d7",
+      "checks": {
+        "permission_contract": true,
+        "tests_pass": true,
+        "release_policy_preserved": true
+      },
+      "passed": true
+    }
+  ],
+  "passed": true
+}

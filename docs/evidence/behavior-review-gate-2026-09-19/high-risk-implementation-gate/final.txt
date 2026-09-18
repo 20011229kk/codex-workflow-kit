@@ -1,0 +1,7 @@
+Implemented: `can_read` now allows access only when both `id` and `tenant` match.
+
+- Reproduced the bypass before fixing it: the cross-tenant regression test failed.
+- After the fix, `python3 -m unittest discover -v` passed all 4 tests.
+- Local self-review found no additional issues; existing tests remain intact.
+
+Release readiness is blocked: RELEASE.md requires an independent reviewer, and that review remains pending. No commit, release, or delegation occurred.

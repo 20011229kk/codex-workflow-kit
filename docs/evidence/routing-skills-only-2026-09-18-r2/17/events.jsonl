@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0b53a-6659-7b43-aff0-2d4763698c3d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"id\":\"17\",\"selected\":[\"cwk-design\",\"cwk-execute\"]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13354,"cached_input_tokens":13056,"cache_write_input_tokens":0,"output_tokens":458,"reasoning_output_tokens":429}}

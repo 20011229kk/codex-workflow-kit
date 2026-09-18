@@ -1,0 +1,2 @@
+Use $cwk-plan to turn the approved docs/design.md into executable tasks in WORK.md, including concrete test commands and acceptance checks. This request ends at the implementation plan; do not implement the exporter.
+Use English. Work only inside this disposable project. Do not access services, install dependencies, change global settings or use subagents.

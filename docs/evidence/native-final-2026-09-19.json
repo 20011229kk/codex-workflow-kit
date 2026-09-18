@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "scope": "native plugin lifecycle; no model behavior claim",
+  "cli_version": "codex-cli 0.153.4",
+  "platform": "Darwin arm64",
+  "version": "0.1.0-beta",
+  "checks": [
+    {
+      "name": "archive-install-and-fresh-discovery",
+      "passed": true,
+      "skills": [
+        "codex-workflow-kit:cwk-debug",
+        "codex-workflow-kit:cwk-design",
+        "codex-workflow-kit:cwk-execute",
+        "codex-workflow-kit:cwk-plan",
+        "codex-workflow-kit:cwk-review",
+        "codex-workflow-kit:cwk-route",
+        "codex-workflow-kit:cwk-tdd",
+        "codex-workflow-kit:cwk-verify"
+      ]
+    },
+    {
+      "name": "updated-version-and-resource-visible-in-fresh-host",
+      "passed": true
+    },
+    {
+      "name": "uninstall-preserves-other-skills-and-project-rules",
+      "passed": true
+    }
+  ],
+  "superpowers_coexistence": true,
+  "superpowers_revision": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+  "archive_sha256": "69e727f9888ac92a48dff0f9365f8544411965488f0dce59ca5938ea7f3742ea",
+  "passed": true
+}

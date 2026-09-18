@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0b537-dd89-73c1-b682-9884330de67b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"id\":\"07\",\"selected\":[\"cwk-plan\"]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13353,"cached_input_tokens":10240,"cache_write_input_tokens":0,"output_tokens":22,"reasoning_output_tokens":0}}

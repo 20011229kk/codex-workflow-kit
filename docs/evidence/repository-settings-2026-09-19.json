@@ -1,0 +1,15 @@
+{
+  "repository": "20011229kk/codex-workflow-kit",
+  "verified_via": "GitHub REST API",
+  "issues_enabled": true,
+  "private_vulnerability_reporting": true,
+  "preserved_base_commit": "8f40c78dbbc67c4dbd5e2961aadd3e5dbf3b2c9b",
+  "description_set": true,
+  "topics": [
+    "agent-skills",
+    "code-review",
+    "codex",
+    "testing",
+    "workflow"
+  ]
+}

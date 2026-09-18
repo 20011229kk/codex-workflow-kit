@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "plugin": "codex-workflow-kit",
+  "upstream_to_public": {
+    "using-superpowers": "cwk-route",
+    "brainstorming": "cwk-design",
+    "writing-plans": "cwk-plan",
+    "executing-plans": "cwk-execute",
+    "test-driven-development": "cwk-tdd",
+    "systematic-debugging": "cwk-debug",
+    "requesting-code-review": "cwk-review",
+    "verification-before-completion": "cwk-verify"
+  }
+}

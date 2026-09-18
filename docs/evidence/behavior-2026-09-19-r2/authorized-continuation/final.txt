@@ -1,0 +1,5 @@
+Implemented `total(values)`, including returning zero for an empty list.
+
+Validation passed: `python3 -B -m unittest discover -v` — 1 test with 7 subcases, all confirmed failing against the original stub.
+
+Updated `plan.md` to mark the task complete. The UI-color decision remains pending; no UI changes or commits were made.

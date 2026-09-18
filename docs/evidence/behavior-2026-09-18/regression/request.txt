@@ -1,0 +1,2 @@
+Use $cwk-tdd to fix clamp: clamp(12, 0, 10) must return 10 but currently returns 12. Inputs are integers with low <= high. Add a regression check before the fix, retain valid behavior, run the tests, and complete the change. Keep the public function signature.
+Use English. Work only inside this disposable project. Do not access services, install dependencies, change global settings or use subagents.
