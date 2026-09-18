@@ -2,6 +2,7 @@
 
 ## 0.1.0-beta — 2026-09-19
 
+- Published the prerelease with verified public tag installation, hosted CI and downloadable ZIP/checksum assets.
 - Added a native Codex repository marketplace and complete versioned plugin bundle. Namespaced the eight skills with cwk names and retained upstream source mapping and MIT notices.
 - Added deterministic archive packaging and isolated native install, discovery, update and uninstall verification, including Superpowers v6.3.0 coexistence.
 - Separated skills-only installation from explicitly adopted project rule profiles in documentation and routing inputs.

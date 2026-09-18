@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "package": "codex-workflow-kit",
-  "status": "reviewed beta candidate with maintainer authorization",
+  "status": "published beta source and post-release verification evidence",
   "language": "en",
   "self_exclusion": "This manifest is included in the candidate but has no self-referential digest.",
   "provenance": "docs/source-files.json",
@@ -23,7 +23,7 @@
     },
     {
       "path": ".doc/specs/public-core/tasks.md",
-      "sha256": "eec41ab08ef44e5826aa9d04901c15c377b0a76aaaf5750dfcf7279ddaa5ca39",
+      "sha256": "b3136361b6b2d0da922819294ada08d3a0849d460fabf44bef4e173146b00fc5",
       "role": "publication specification and task state"
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "4d8e0c67fcd290529722c36700cb9982693492fb1a411d3e5a5b7b1a7604d662",
+      "sha256": "f4c3bff1dc32c48499b41ce10e9d506f7dc88226fccabaf1c00575f847218425",
       "role": "public project metadata and documentation"
     },
     {
@@ -495,6 +495,16 @@
       "path": "docs/evidence/native-lifecycle-2026-09-18.json",
       "sha256": "44087d811f8d838c1858d9a7f187dfaa98aa95585c2c17906a7703fa4a3f53d9",
       "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/public-tag-install-2026-09-19.json",
+      "sha256": "77cb894729aee5cbffc278751972cc2447041d05e46d0ac3cc639b3248fea5a5",
+      "role": "public release verification evidence"
+    },
+    {
+      "path": "docs/evidence/published-release-2026-09-19.json",
+      "sha256": "e7630e640cd7852fcfcc7c78af4c369eab62f81a319da16b861f21316df073f1",
+      "role": "public release verification evidence"
     },
     {
       "path": "docs/evidence/repository-settings-2026-09-19.json",
@@ -1773,12 +1783,12 @@
     },
     {
       "path": "docs/publication.md",
-      "sha256": "67cb8dc33e9612260079621ffadc3bf1ce15174dd5d9656465294ffb7619d06b",
+      "sha256": "6a0dc8d8af7c8e5e8859ded73075d2b6d79b3a2b16f1f87b5ca3cd2c6650830f",
       "role": "public documentation and provenance"
     },
     {
       "path": "docs/releases/v0.1.0-beta.md",
-      "sha256": "05fe84082b03351eb3fd0f4cc54ceaffb9900c0c73ccd5ce40aa2b0a9e72fd90",
+      "sha256": "a442b4f287cff897224fc1ae6d483eedcd68354f7d857b3699d760d990f34c56",
       "role": "prepared public beta release notes"
     },
     {
@@ -1813,7 +1823,7 @@
     },
     {
       "path": "docs/validation.md",
-      "sha256": "00ff8c79273ee592bc9fb066e3d2ab79d5c50264452ebc19e980bbfe87bbd48c",
+      "sha256": "bcedb985435b1578a52be4623977c0aba2a04a6af6bb96c2da96c243c4649a58",
       "role": "public documentation and provenance"
     },
     {

@@ -1,0 +1,21 @@
+{
+  "scope": "Public Git tag installation, fresh-host discovery and removal; no model calls",
+  "source": "20011229kk/codex-workflow-kit",
+  "ref": "v0.1.0-beta",
+  "commit": "23969d3c24078622d54b63b92dfbdae6dc1109e7",
+  "cli_version": "codex-cli 0.153.4",
+  "skills": [
+    "cwk-route",
+    "cwk-design",
+    "cwk-plan",
+    "cwk-execute",
+    "cwk-tdd",
+    "cwk-debug",
+    "cwk-review",
+    "cwk-verify"
+  ],
+  "installed_files_match_reviewed_bundle": true,
+  "unrelated_content_preserved": true,
+  "passed": true,
+  "network_note": "An earlier attempt timed out during GitHub connection before the public tag existed. The tag was then created through the GitHub API after Git transport timeouts; this run uses the ordinary documented marketplace command."
+}

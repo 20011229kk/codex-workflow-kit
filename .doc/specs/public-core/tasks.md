@@ -18,13 +18,13 @@ This checklist tracks the requested 0.1.0-beta delivery and is the sole task-sta
 - [x] Obtain maintainer confirmation of publication rights and root MIT licensing for the final reviewed contents; the user authorized publication and independent review on 2026-09-19.
 - [x] Obtain authorized independent review of credential handling and isolation; fix all three reproduced findings, add regression checks and pass independent re-review. Evidence: docs/evidence/independent-review-2026-09-19.md.
 - [x] Commit and push the reviewed tree under user authorization; PR #1 passed hosted checks on Linux/macOS with Python 3.9/3.12.
-- [ ] Publish v0.1.0-beta and verify public Git marketplace installation from that tag.
-- [ ] Audit every requirement against final evidence and deliver the beta with exact support boundaries.
+- [x] Publish v0.1.0-beta at commit 23969d3c24078622d54b63b92dfbdae6dc1109e7; tag CI passed, public Git marketplace install/discovery/remove passed, and both release assets were downloaded and verified.
+- [x] Audit every requirement against the validation report, current bundle, preserved license/provenance, real selection/task evidence, independent review, hosted CI, public tag lifecycle and downloaded assets. Deliver the published beta with the tested CLI/macOS baseline and explicit unverified surfaces.
 
-## Pending External Decisions
+## Authorization and Delivery
 
-The user provided https://github.com/20011229kk/codex-workflow-kit. No competing repository was created. The maintainer authorized MIT publication and independent subagent review on 2026-09-19, after requesting an explanation before publication. That explanation is complete. Independent review and focused re-review are complete. Hosted CI passed. Public release and remote installation remain to be verified.
+The user provided https://github.com/20011229kk/codex-workflow-kit. No competing repository was created. The maintainer authorized MIT publication and independent subagent review on 2026-09-19, after requesting an explanation before publication. That explanation is complete. Independent review and focused re-review are complete. Hosted CI, public release and remote installation have passed. No publication decision remains pending.
 
 ## Evidence
 
-[Validation report](../../../docs/validation.md) links native lifecycle, all three real selection campaigns, eight actual task scenarios and repository settings. The final native runtime archive digest is 69e727f9888ac92a48dff0f9365f8544411965488f0dce59ca5938ea7f3742ea. Local checks do not establish hosted CI, remote installation or a completed release.
+[Validation report](../../../docs/validation.md) links native lifecycle, all three real selection campaigns, eight actual task scenarios and repository settings. The final native runtime archive digest is 69e727f9888ac92a48dff0f9365f8544411965488f0dce59ca5938ea7f3742ea. Hosted and public delivery evidence is recorded in docs/evidence/hosted-ci-2026-09-19.json, docs/evidence/public-tag-install-2026-09-19.json and docs/evidence/published-release-2026-09-19.json. Post-release evidence bookkeeping on main does not change the immutable runtime tag or archive.

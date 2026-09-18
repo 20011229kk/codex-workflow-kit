@@ -10,7 +10,7 @@ Run the fast commands in README. Inspect the complete runtime bundle and actual 
 
 The user-created repository's initial history must be preserved. Use a normal branch and ordinary reviewable commits; do not force-push or import private repository history. Commit/push/tag/release actions require applicable user authorization.
 
-Prepared text for the first beta is in [v0.1.0-beta release notes](releases/v0.1.0-beta.md). Remove its preparation-only notice only after the release gates are satisfied.
+The first beta notes are in [v0.1.0-beta release notes](releases/v0.1.0-beta.md). Published artifact and tag checks are recorded in docs/evidence/published-release-2026-09-19.json.
 
 ## Versioned Artifact
 
