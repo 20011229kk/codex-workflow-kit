@@ -23,7 +23,7 @@
     },
     {
       "path": ".doc/specs/public-core/tasks.md",
-      "sha256": "f67b77bfbd5c72ebc6d33856428af0de9a11cd901e1511151d4b8f16699322f7",
+      "sha256": "eec41ab08ef44e5826aa9d04901c15c377b0a76aaaf5750dfcf7279ddaa5ca39",
       "role": "publication specification and task state"
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "04a4892c0839e164295846c6cdfa05470293a0756a1f5d226067824caaaa0798",
+      "sha256": "4d8e0c67fcd290529722c36700cb9982693492fb1a411d3e5a5b7b1a7604d662",
       "role": "public project metadata and documentation"
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "dc43895be290a2d930fadb4cac28e86aff759b80cb4d83891fd0cc463563b1cb",
+      "sha256": "4862a5c8002e0720015f737d3a1b8f0ec142ea102d64c6f735e4b6b7d45c8fc5",
       "role": "public project metadata and documentation"
     },
     {
@@ -470,6 +470,11 @@
       "path": "docs/evidence/behavior-review-gate-2026-09-19/run.json",
       "sha256": "97fc2a74c479d9c854eb607c2b264a10161a7aa4c7a8808b568a77e6811cfb5f",
       "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/hosted-ci-2026-09-19.json",
+      "sha256": "e06f7325f10d8d5634c6b01529198e0947c17218a2a36c8dcc61d5719470f411",
+      "role": "hosted CI verification evidence"
     },
     {
       "path": "docs/evidence/independent-review-2026-09-19.md",
@@ -1773,7 +1778,7 @@
     },
     {
       "path": "docs/releases/v0.1.0-beta.md",
-      "sha256": "e02920bf9b0f7517c381900ff1d1fb6c2ea36b3660d4b3a0476d3aa829328c42",
+      "sha256": "05fe84082b03351eb3fd0f4cc54ceaffb9900c0c73ccd5ce40aa2b0a9e72fd90",
       "role": "prepared public beta release notes"
     },
     {
@@ -1808,7 +1813,7 @@
     },
     {
       "path": "docs/validation.md",
-      "sha256": "969fcd583c31db6b58984316ac94e49345c93b3b63860bda4ca072826caba9e8",
+      "sha256": "00ff8c79273ee592bc9fb066e3d2ab79d5c50264452ebc19e980bbfe87bbd48c",
       "role": "public documentation and provenance"
     },
     {

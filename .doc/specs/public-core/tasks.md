@@ -17,12 +17,13 @@ This checklist tracks the requested 0.1.0-beta delivery and is the sole task-sta
 - [x] Finish the reviewed publication manifest and distributable fingerprints; complete publication scan and whitespace checks pass. The archive matches the validated native lifecycle digest.
 - [x] Obtain maintainer confirmation of publication rights and root MIT licensing for the final reviewed contents; the user authorized publication and independent review on 2026-09-19.
 - [x] Obtain authorized independent review of credential handling and isolation; fix all three reproduced findings, add regression checks and pass independent re-review. Evidence: docs/evidence/independent-review-2026-09-19.md.
-- [ ] Commit and push the reviewed tree under applicable authorization, verify hosted CI, publish v0.1.0-beta, and verify public Git marketplace installation from that tag.
+- [x] Commit and push the reviewed tree under user authorization; PR #1 passed hosted checks on Linux/macOS with Python 3.9/3.12.
+- [ ] Publish v0.1.0-beta and verify public Git marketplace installation from that tag.
 - [ ] Audit every requirement against final evidence and deliver the beta with exact support boundaries.
 
 ## Pending External Decisions
 
-The user provided https://github.com/20011229kk/codex-workflow-kit. No competing repository was created. The maintainer authorized MIT publication and independent subagent review on 2026-09-19, after requesting an explanation before publication. That explanation is complete. Independent review and focused re-review are complete. Hosted CI, public release and remote installation remain to be verified.
+The user provided https://github.com/20011229kk/codex-workflow-kit. No competing repository was created. The maintainer authorized MIT publication and independent subagent review on 2026-09-19, after requesting an explanation before publication. That explanation is complete. Independent review and focused re-review are complete. Hosted CI passed. Public release and remote installation remain to be verified.
 
 ## Evidence
 

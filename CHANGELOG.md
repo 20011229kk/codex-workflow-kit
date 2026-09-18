@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0-beta — preparation in progress
+## 0.1.0-beta — 2026-09-19
 
 - Added a native Codex repository marketplace and complete versioned plugin bundle. Namespaced the eight skills with cwk names and retained upstream source mapping and MIT notices.
 - Added deterministic archive packaging and isolated native install, discovery, update and uninstall verification, including Superpowers v6.3.0 coexistence.

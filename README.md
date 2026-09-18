@@ -2,7 +2,7 @@
 
 Eight focused development skills for Codex, adapted from Superpowers. Scale process to task risk, preserve project conventions and existing authorization, and verify outcomes with evidence.
 
-**0.1.0-beta is being prepared.** Local installation and evaluation evidence is available in [validation](docs/validation.md). Public release and hosted checks are tracked in [the beta tasks](.doc/specs/public-core/tasks.md). This is an independent project, not an official OpenAI or Superpowers distribution.
+**0.1.0-beta** is the first versioned plugin bundle. See [releases](https://github.com/20011229kk/codex-workflow-kit/releases) for downloads and [validation](docs/validation.md) for installation, hosted checks and evaluation evidence. This is an independent project, not an official OpenAI or Superpowers distribution.
 
 ## Quick Start
 
@@ -25,7 +25,7 @@ Use $cwk-route to choose the workflow for this task. Follow this project's exist
 
 For a simple wording fix, ask directly; a workflow skill is usually unnecessary. For a known bug, try `Use $cwk-tdd to reproduce and fix this defect.` See [first-use examples](docs/getting-started.md) and [troubleshooting](docs/troubleshooting.md).
 
-Once the repository has its first published version, a Git marketplace can be registered with `codex plugin marketplace add 20011229kk/codex-workflow-kit --ref v0.1.0-beta`. The tag must exist; the preparation tree alone does not make it available.
+To install the published beta from GitHub, register its pinned marketplace with `codex plugin marketplace add 20011229kk/codex-workflow-kit --ref v0.1.0-beta`, then run the plugin add command above.
 
 ## Included Workflows
 
