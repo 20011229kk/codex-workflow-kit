@@ -1,0 +1,115 @@
+{
+  "scope": "real model selection; no task execution",
+  "profile": "skills-only",
+  "cli_version": "codex-cli 0.153.4",
+  "model_settings": {
+    "model": "gpt-6-astra",
+    "model_provider": "openai-custom",
+    "model_reasoning_effort": "high"
+  },
+  "input_sha256": "44cdf8d4bc9769e7174a3461216e4783dd75ca83a1ec30f593e75772961c5533",
+  "cases": [
+    {
+      "id": "01",
+      "exit": 0,
+      "seconds": 15.02
+    },
+    {
+      "id": "02",
+      "exit": 0,
+      "seconds": 17.42
+    },
+    {
+      "id": "03",
+      "exit": 0,
+      "seconds": 4.66
+    },
+    {
+      "id": "04",
+      "exit": 0,
+      "seconds": 6.94
+    },
+    {
+      "id": "05",
+      "exit": 0,
+      "seconds": 6.15
+    },
+    {
+      "id": "06",
+      "exit": 0,
+      "seconds": 6.28
+    },
+    {
+      "id": "07",
+      "exit": 0,
+      "seconds": 4.32
+    },
+    {
+      "id": "08",
+      "exit": 0,
+      "seconds": 6.52
+    },
+    {
+      "id": "09",
+      "exit": 0,
+      "seconds": 34.39
+    },
+    {
+      "id": "10",
+      "exit": 0,
+      "seconds": 4.84
+    },
+    {
+      "id": "11",
+      "exit": 0,
+      "seconds": 12.5
+    },
+    {
+      "id": "12",
+      "exit": 0,
+      "seconds": 10.91
+    },
+    {
+      "id": "13",
+      "exit": 0,
+      "seconds": 5.81
+    },
+    {
+      "id": "14",
+      "exit": 0,
+      "seconds": 16.34
+    },
+    {
+      "id": "15",
+      "exit": 0,
+      "seconds": 56.53
+    },
+    {
+      "id": "16",
+      "exit": 0,
+      "seconds": 13.93
+    },
+    {
+      "id": "17",
+      "exit": 0,
+      "seconds": 50.03
+    },
+    {
+      "id": "18",
+      "exit": 0,
+      "seconds": 33.82
+    },
+    {
+      "id": "19",
+      "exit": 0,
+      "seconds": 27.38
+    },
+    {
+      "id": "20",
+      "exit": 0,
+      "seconds": 40.38
+    }
+  ],
+  "sanitization": "Temporary and source root paths replaced with stable labels; auth/config excluded.",
+  "installed_version": "0.1.0-beta"
+}

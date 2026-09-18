@@ -1,0 +1,2 @@
+Use $cwk-execute. Continue the already-authorized unblocked task in plan.md and validate it. The UI-color decision remains pending; preserve that pending state. Finish all work that does not depend on it without re-requesting execution authorization. Do not commit.
+Use English. Work only inside this disposable project. Do not access services, install dependencies, change global settings or use subagents.

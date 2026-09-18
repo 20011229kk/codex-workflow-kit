@@ -1,0 +1,2 @@
+Use $cwk-execute. Read PROJECT.md and execute the approved plan.md through implementation, tests and task-state updates in this session. Requirements are settled. Keep the existing single task record and current-session execution; no new approval or delegation is needed.
+Use English. Work only inside this disposable project. Do not access services, install dependencies, change global settings or use subagents.

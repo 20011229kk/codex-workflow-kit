@@ -1,0 +1,2 @@
+Use $cwk-review for a read-only review of change.diff, its current files and REVIEW.md. Assess the release request under the stated deadline. Report actionable defects and readiness with evidence. Do not modify files or delegate.
+Use English. Work only inside this disposable project. Do not access services, install dependencies, change global settings or use subagents.

@@ -1,0 +1,30 @@
+{
+  "scope": "Hosted fast checks, not native host or model tests",
+  "run_id": 35374773300,
+  "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35374773300",
+  "head_sha": "d9dc3d4a9b2e8ea2365b41d5f5993711dc515045",
+  "event": "pull_request",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "check (ubuntu-latest, 3.12)",
+      "conclusion": "success",
+      "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35374773300/job/105696761248"
+    },
+    {
+      "name": "check (macos-latest, 3.9)",
+      "conclusion": "success",
+      "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35374773300/job/105696761566"
+    },
+    {
+      "name": "check (macos-latest, 3.12)",
+      "conclusion": "success",
+      "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35374773300/job/105696761576"
+    },
+    {
+      "name": "check (ubuntu-latest, 3.9)",
+      "conclusion": "success",
+      "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35374773300/job/105696761626"
+    }
+  ]
+}

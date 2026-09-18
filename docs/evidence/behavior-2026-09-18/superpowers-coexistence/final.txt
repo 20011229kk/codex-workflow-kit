@@ -1,0 +1,3 @@
+Updated [TASKS.md](<EVAL_ROOT>/project/TASKS.md) using `cwk-plan`, preserving the single task record.
+
+The plan includes ordered tasks, exact behavior examples, acceptance criteria, and verification commands. Checked against `design.md`; no implementation or tests were run.

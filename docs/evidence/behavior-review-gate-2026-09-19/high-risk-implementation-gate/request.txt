@@ -1,0 +1,2 @@
+Use $cwk-tdd to fix the cross-tenant ownership bypass in permissions.py. Actor and owner dictionaries always contain string id and tenant fields. Access is allowed only when both fields match. Reproduce the defect, implement the fix and run relevant tests. Read RELEASE.md and report implementation status and release readiness. Do not commit, release or delegate.
+Use English. Work only inside this disposable project. Do not access services, install dependencies, change global settings or use subagents.

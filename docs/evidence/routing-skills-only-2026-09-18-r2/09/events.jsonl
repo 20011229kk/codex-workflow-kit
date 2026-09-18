@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0b538-07e2-77d1-b25f-71415787ac9a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"id\":\"09\",\"selected\":[\"cwk-debug\"]}"}}
+{"type":"turn.completed","usage":{"input_tokens":13347,"cached_input_tokens":13056,"cache_write_input_tokens":0,"output_tokens":106,"reasoning_output_tokens":82}}

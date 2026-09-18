@@ -1,0 +1,1 @@
+Fixed `codxe` to `codex` in `README.md`. Verified all other contents are unchanged. No tests or planning documents added.

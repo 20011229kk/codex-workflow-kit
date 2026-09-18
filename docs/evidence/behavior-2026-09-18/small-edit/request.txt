@@ -1,0 +1,2 @@
+Fix codxe to codex in README.md. Keep all other contents unchanged. This is a wording edit; do not add tests or planning documents.
+Use English. Work only inside this disposable project. Do not access services, install dependencies, change global settings or use subagents.

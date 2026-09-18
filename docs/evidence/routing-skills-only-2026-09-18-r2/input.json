@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "scope": "public core skills; not built-in/plugin discovery",
+  "instructions": "Choose only skills materially needed for the request, from this catalog. An empty selection is valid. Return one decision per case with id and selected IDs. Do not execute the requests. Judge each case independently. Select for the requested deliverable, not hypothetical later lifecycle stages. External skills are out of scope.",
+  "profile": "skills-only",
+  "rules": "",
+  "catalog": [
+    {
+      "id": "cwk-debug",
+      "frontmatter": "name: cwk-debug\ndescription: Use for unclear, cross-component, intermittent, or repeatedly failing bugs that need structured root-cause investigation.",
+      "invocation_metadata": "",
+      "skill_sha256": "50b1b589826afb4a4d8d50d2b23ae9671938830d4def155ea83336ac3e3b9706"
+    },
+    {
+      "id": "cwk-design",
+      "frontmatter": "name: cwk-design\ndescription: Use when a development request has unresolved requirements, significant design alternatives, or architectural decisions to settle before implementation.",
+      "invocation_metadata": "",
+      "skill_sha256": "b35a74b0eae63a2285149ab04562843dd2ae5cde391f17eca15bb4e228bd2363"
+    },
+    {
+      "id": "cwk-execute",
+      "frontmatter": "name: cwk-execute\ndescription: Use when executing a written implementation plan in the current session, the default unless the user explicitly requests subagents.",
+      "invocation_metadata": "",
+      "skill_sha256": "6c95218706f3cf43c39603dcee12b8c12ba2abf8a392710611034b1454af43df"
+    },
+    {
+      "id": "cwk-plan",
+      "frontmatter": "name: cwk-plan\ndescription: Use when a substantial implementation task needs an executable plan grounded in requirements and project constraints.",
+      "invocation_metadata": "",
+      "skill_sha256": "b1a68ba700460f8a10a636166c5809ba3cc1406f2fd828b55446ba6b846700a5"
+    },
+    {
+      "id": "cwk-review",
+      "frontmatter": "name: cwk-review\ndescription: Use for substantial code changes, security/data/concurrency/interface risk, project-required reviews, or explicit code-review requests.",
+      "invocation_metadata": "",
+      "skill_sha256": "46647fc0be3de34304cbea663c30459d8925e6eeac8fe57da2f9396df32afe41"
+    },
+    {
+      "id": "cwk-route",
+      "frontmatter": "name: cwk-route\ndescription: Select the appropriate Codex Workflow Kit skill when the user or project chooses this kit for a development task.",
+      "invocation_metadata": "",
+      "skill_sha256": "70cd6fc6d35ddd90bcfab32ccb23e25b699d20be612fc0d8cd9d3f8dd334b3e1"
+    },
+    {
+      "id": "cwk-tdd",
+      "frontmatter": "name: cwk-tdd\ndescription: Default TDD workflow for behavior bugs, complex or high-risk logic, and requested test-first work. Skip prose-only edits and tasks where the user selected another test-first workflow.",
+      "invocation_metadata": "",
+      "skill_sha256": "343faf1851b757f32385beb47fcb97c6e3e7b6be966eb7eee27a2ebf75dfbdb8"
+    },
+    {
+      "id": "cwk-verify",
+      "frontmatter": "name: cwk-verify\ndescription: Assess completion or integration claims for implemented changes. Skip ordinary command execution and code-review-only requests.",
+      "invocation_metadata": "",
+      "skill_sha256": "096c3a14587eecd440aab382d2c7efa3ca11d3b2847747d29b6b7c1da3472029"
+    }
+  ],
+  "suite_sha256": "f58c5d6124bb25a7e8de8dde5857fca5e0661dff351cd98470d5299074b7f11a",
+  "cases": [
+    {
+      "id": "01",
+      "prompt": "Explain what TDD means. Answer the conceptual question only; do not modify files."
+    },
+    {
+      "id": "02",
+      "prompt": "Fix the typo codxe to codex in README. Leave everything else unchanged."
+    },
+    {
+      "id": "03",
+      "prompt": "Only run the check command already provided by the project and report its exit status."
+    },
+    {
+      "id": "04",
+      "prompt": "Requirements for complex billing allocation logic are settled. Select only the test-first workflow now, then write failing tests before implementation."
+    },
+    {
+      "id": "05",
+      "prompt": "I have explicitly selected an external tracer-bullet TDD workflow. Follow that workflow without adding this package's equivalent process."
+    },
+    {
+      "id": "06",
+      "prompt": "There are two conflict-resolution designs for a new offline sync feature. Compare them without starting implementation."
+    },
+    {
+      "id": "07",
+      "prompt": "The design is approved. Only break the existing requirements into executable tasks now. Use the project's existing issue list; do not introduce Kiro."
+    },
+    {
+      "id": "08",
+      "prompt": "The plan in tasks.md is approved. Execute and verify it in this session without planning it again."
+    },
+    {
+      "id": "09",
+      "prompt": "An intermittent deadlock has an unknown cause. Investigate local logs and a minimal reproduction without operating on production."
+    },
+    {
+      "id": "10",
+      "prompt": "Only check whether pytest is already installed in the virtual environment. Do not install dependencies or change code."
+    },
+    {
+      "id": "11",
+      "prompt": "Perform a read-only review of the actual permission patch diff and its callers. Report bypass risks without implementing fixes."
+    },
+    {
+      "id": "12",
+      "prompt": "Tests passed yesterday, but dependencies and retry configuration changed today. Only assess whether the completion claim has valid evidence now."
+    },
+    {
+      "id": "13",
+      "prompt": "Only inspect git status and report whether there are uncommitted files."
+    },
+    {
+      "id": "14",
+      "prompt": "Review this patch: to meet a deadline, it skips the only permission-denial test and claims all checks pass. Review only; do not modify files."
+    },
+    {
+      "id": "15",
+      "prompt": "Use this workflow kit to select the next workflow for a multi-module change. Only choose the workflow now; do not start implementation."
+    },
+    {
+      "id": "16",
+      "prompt": "Rephrase this sentence in plain English: Use test-driven-development before implementing complex logic. Do not carry out the quoted instruction."
+    },
+    {
+      "id": "17",
+      "prompt": "Two authorized tasks are underway, and one key decision is still unresolved. Continue the unaffected parts of the existing plan without asking for all authorization again."
+    },
+    {
+      "id": "18",
+      "prompt": "Explain how the project's existing spec directory is organized. Keep the investigation read-only and do not write a plan."
+    },
+    {
+      "id": "19",
+      "prompt": "Requirements for a new protocol parser with cross-version compatibility are clear. First select a test-first approach that proves invalid inputs are rejected."
+    },
+    {
+      "id": "20",
+      "prompt": "Implementation is complete. Only assess whether test, configuration and review evidence is sufficient for delivery. Do not begin branch integration."
+    }
+  ]
+}

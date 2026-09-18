@@ -1,0 +1,86 @@
+{
+  "plugins/codex-workflow-kit/skills/cwk-route/SKILL.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/using-superpowers/SKILL.md",
+    "source_sha256": "2689bd5008a8d39865829a93d6d79f6d6aa093cd57ce34cf3be9737d78064099"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-design/SKILL.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/brainstorming/SKILL.md",
+    "source_sha256": "ac0119d85bde61dac155fd7d074a63b6367d967bd5c43e5678aa5a419ef67111"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-plan/SKILL.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/writing-plans/SKILL.md",
+    "source_sha256": "c1cc76d22268431182acd41a3d9a3d0ddbe35756b0b63f749f2109b9105b1c01"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-execute/SKILL.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/executing-plans/SKILL.md",
+    "source_sha256": "3cdc9e743f7e5f0f95d251d91f2df8cea8c6773955fbbc26ba7c914bf5bf105c"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-tdd/SKILL.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/test-driven-development/SKILL.md",
+    "source_sha256": "10d3dcc6cfb61900936e41978d676e2645fc1d235553e17f1c84b921659761a8"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-debug/SKILL.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/systematic-debugging/SKILL.md",
+    "source_sha256": "30edc5a47420ff8c3918cfa8d8854e9fcb528a57caf3c369120cea9bd22caefb"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-review/SKILL.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/requesting-code-review/SKILL.md",
+    "source_sha256": "6304408241c693ad28872a582566c8de1bd97ae649ebb805e476332486ab83da"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-verify/SKILL.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/verification-before-completion/SKILL.md",
+    "source_sha256": "6dd129cfb64381fd91e44a27abcdc490f9dbcf2497d51bd4ea5f561dffeebec0"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-tdd/writing-good-tests.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/test-driven-development/writing-good-tests.md",
+    "source_sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-review/code-reviewer.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/requesting-code-review/code-reviewer.md",
+    "source_sha256": "8458e90fc0f61f5d9835049e8407100fdcf6f4fd9a8b237e00ffcddcfba8ce39"
+  },
+  "plugins/codex-workflow-kit/skills/cwk-review/quality-gates.md": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/skills/requesting-code-review/quality-gates.md",
+    "source_sha256": "01c48a6bf4be6f14769372ce62d94adbdf244f0ce4774d347a632567812c1058"
+  },
+  "licenses/Superpowers-MIT.txt": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "payload/superpowers/LICENSE",
+    "source_sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+  },
+  "evals/routing/routing.py": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "evals/workflow/routing/routing.py",
+    "source_sha256": "23308b3071c1ac597754d3911ede8ef50c0c193468df1e706d6bf05057aa39d1"
+  },
+  "evals/routing/test_routing.py": {
+    "source_repository": "personal-workflow",
+    "source_commit": "469b80d",
+    "source_path": "evals/workflow/routing/test_routing.py",
+    "source_sha256": "5c36cb8a2af7fa08465330f3d96fdf8978965c1adfcfc1ef782c1ddd728b77d7"
+  }
+}

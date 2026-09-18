@@ -1,0 +1,2 @@
+For this task select Codex Workflow Kit, using $cwk-plan. Superpowers is also installed, but do not stack its equivalent planning workflow. Convert the approved design.md into executable tasks in TASKS.md. Stop at the plan and keep the existing single record.
+Use English. Work only inside this disposable project. Do not access services, install dependencies, change global settings or use subagents.
