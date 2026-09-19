@@ -1,5 +1,14 @@
 # Changelog
 
+## Documentation and Discovery — 2026-09-19
+
+- Put pinned installation, a real edited demo and the first-user trial invitation near the README opening. Added ENOENT and coexistence explanations so new users can identify host failures and competing workflow selection.
+- Added an English article tracing the original selection failures, a trial-report issue form, and an official-directory preparation assessment with unresolved publisher prerequisites. No participants, external community posts or directory acceptance are claimed.
+- Recorded a fresh isolated regression task and attached a 48-second replay/preview with full source evidence, editing disclosure and hashes. Media authoring uses existing local tooling; users need no new plugin dependencies.
+- Added accurate discovery topics. The v0.1.0-beta tag, runtime files and ZIP remain unchanged; existing users do not need to reinstall for these documentation changes.
+
+Validation covers the required publication/package checks, 52 offline tests, the fresh task artifacts and media decoding/visual inspection. Hosted delivery evidence is linked from the sole task record. To roll back documentation, revert the corresponding documentation commit after reviewing later changes; removing the added media attachments does not change the runtime release. Installation/removal commands remain in INSTALL.md.
+
 ## 0.1.0-beta — 2026-09-19
 
 - Published the prerelease with verified public tag installation, hosted CI and downloadable ZIP/checksum assets.

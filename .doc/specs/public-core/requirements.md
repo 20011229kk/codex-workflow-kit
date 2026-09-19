@@ -17,3 +17,19 @@ As a Codex user unfamiliar with the maintainer's personal setup, I want to insta
 - When comparing upstream, documentation shall identify the retained v6.2.0 provenance and reviewed v6.3.0 changes without claiming unmeasured performance superiority.
 - All included documentation, rules, prompts and fixtures shall use English. Tests shall use isolated HOME and Codex state; the existing personal workflow and real global configuration shall remain unchanged.
 - Public repository creation remains with the user. Remote configuration and publication shall use the provided repository and applicable authorization; pending external decisions remain explicit in tasks.md.
+
+## Discovery and First-User Adoption
+
+### User Story
+
+As a Codex developer discovering this project, I want a clear first-screen explanation, a working installation command and a truthful short demonstration so I can decide whether to try it and report useful feedback.
+
+### EARS Acceptance Criteria
+
+- When viewing README, a visitor shall see the intended use, pinned one-command installation, tested baseline and a real 30-60 second demonstration near the top.
+- When the CLI fails before startup or another workflow is installed, the FAQ shall explain the boundary and available choices without promising zero interference or changing global settings.
+- The demonstration shall derive from an actual isolated Codex task, retain sanitized original outputs and distinguish edited playback time from original run time. Media shall be visually inspected and published as a downloadable asset without weakening source-file checks.
+- The repository shall contain an English development article and public beta feedback entry; Chinese promotion copy shall be delivered outside the English repository. Articles shall preserve attribution, failure history and measured-scope limits.
+- Repository topics shall accurately describe Codex, skills, testing and review, preserving relevant existing topics.
+- The official directory evaluation shall use current primary guidance and identify applicability, required publisher inputs, gaps and the next submission step; evaluation shall not be reported as accepted listing.
+- Recruitment shall seek five real Codex users. Invitations, volunteers and completed feedback shall remain distinct; no people, quotes or outcomes shall be invented. With no supplied channels or contacts, prepare the public repository entry and ready-to-post copy while keeping actual participation pending.

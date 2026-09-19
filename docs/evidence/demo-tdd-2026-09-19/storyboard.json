@@ -1,0 +1,134 @@
+{
+  "duration_seconds": 48,
+  "scene_seconds": 8,
+  "width": 1280,
+  "height": 720,
+  "disclosure": "Edited terminal replay of an actual isolated run. Selected excerpts are typeset; idle time shortened. Not screen capture or wall-clock performance.",
+  "scenes": [
+    {
+      "title": "A real bug. One focused workflow.",
+      "label": "01 / REQUEST",
+      "source": [
+        "regression/request.txt",
+        "regression/before.json"
+      ],
+      "lines": [
+        "Prompt excerpt:",
+        "Use $cwk-tdd to fix clamp:",
+        "clamp(12, 0, 10) must return 10",
+        "but currently returns 12.",
+        "",
+        "Original clamp.py:",
+        "def clamp(value, low, high):",
+        "    return max(low, value)",
+        "",
+        "Public synthetic fixture / disposable project"
+      ]
+    },
+    {
+      "title": "The regression comes before the fix.",
+      "label": "02 / TEST",
+      "source": [
+        "regression/events.jsonl:item_5,item_6",
+        "regression/after.json:test_clamp.py"
+      ],
+      "lines": [
+        "Added assertion (test_clamp.py):",
+        "",
+        "def test_above(self):",
+        "    self.assertEqual(clamp(12, 0, 10), 10)",
+        "",
+        "Recorded order:",
+        "test_clamp.py updated -> tests run -> failure",
+        "",
+        "Existing middle and lower-bound tests retained.",
+        "Boundary, equal-bound and negative-range tests added."
+      ]
+    },
+    {
+      "title": "The failure exposes the defect.",
+      "label": "03 / RED",
+      "source": [
+        "regression/events.jsonl:item_6"
+      ],
+      "lines": [
+        "$ python3 -m unittest -v",
+        "",
+        "test_above (test_clamp.ClampTests) ... FAIL",
+        "...",
+        "AssertionError: 12 != 10",
+        "",
+        "Ran 6 tests in 0.000s",
+        "",
+        "FAILED (failures=3)",
+        "",
+        "Recorded command exit: 1",
+        "Output excerpt; full trace linked in docs/demo.md"
+      ]
+    },
+    {
+      "title": "Fix the implementation, keep the contract.",
+      "label": "04 / FIX",
+      "source": [
+        "regression/events.jsonl:item_8",
+        "regression/before.json:clamp.py",
+        "regression/after.json:clamp.py"
+      ],
+      "lines": [
+        "clamp.py / before-and-after diff:",
+        "",
+        " def clamp(value, low, high):",
+        "-    return max(low, value)",
+        "+    return min(high, max(low, value))",
+        "",
+        "Same public signature.",
+        "Both lower and upper bounds enforced.",
+        "",
+        "Only clamp.py and test_clamp.py changed."
+      ]
+    },
+    {
+      "title": "The same suite now passes.",
+      "label": "05 / GREEN",
+      "source": [
+        "regression/events.jsonl:item_9"
+      ],
+      "lines": [
+        "$ python3 -m unittest -v",
+        "",
+        "test_above (test_clamp.ClampTests) ... ok",
+        "test_below (test_clamp.ClampTests) ... ok",
+        "test_boundaries (test_clamp.ClampTests) ... ok",
+        "test_equal_bounds (test_clamp.ClampTests) ... ok",
+        "test_middle (test_clamp.ClampTests) ... ok",
+        "test_negative_range (test_clamp.ClampTests) ... ok",
+        "",
+        "Ran 6 tests in 0.000s",
+        "",
+        "OK",
+        "",
+        "Recorded command exit: 0"
+      ]
+    },
+    {
+      "title": "Try it on a task you can inspect.",
+      "label": "06 / YOUR TURN",
+      "source": [
+        "run.json",
+        "regression/counterfactual.txt"
+      ],
+      "lines": [
+        "codex-workflow-kit / v0.1.0-beta",
+        "",
+        "Original-code replay: new tests still fail.",
+        "Fresh run + artifact checks: 67.65 seconds.",
+        "",
+        "CLI 0.153.4 / macOS arm64 / optional core rules",
+        "Requested: gpt-6-astra / high effort",
+        "",
+        "github.com/20011229kk/codex-workflow-kit",
+        "Seeking five actual trial reports, including failures."
+      ]
+    }
+  ]
+}

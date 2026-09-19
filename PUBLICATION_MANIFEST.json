@@ -13,18 +13,23 @@
     },
     {
       "path": ".doc/specs/public-core/design.md",
-      "sha256": "c64b36e1481d18e7522452bfb856cb6a5cc9910a38cdaab2e7da3fa1ed28b313",
+      "sha256": "dbefa6130fc0f4d2db058ea056c75315439e94b37665b86b016a32c0d77a6b61",
       "role": "publication specification and task state"
     },
     {
       "path": ".doc/specs/public-core/requirements.md",
-      "sha256": "81f68ea19a5ea39acffd6cb69529585225f2d5c52b423dc41a20b994aa9c815a",
+      "sha256": "37b6edab32417c43409de5cc0d14cbc1a647bd02b0de78e277ce723bafc2a187",
       "role": "publication specification and task state"
     },
     {
       "path": ".doc/specs/public-core/tasks.md",
-      "sha256": "b3136361b6b2d0da922819294ada08d3a0849d460fabf44bef4e173146b00fc5",
+      "sha256": "e2cfebccff97336cffc691e1957b71c70f4629a3964dd284e06d3edb0cdb8a62",
       "role": "publication specification and task state"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/beta_trial.yml",
+      "sha256": "c8e60a87baf7d5df32aea6d01beeb60547ee4bc6c95bdb9f911bd943a4404c3b",
+      "role": "public onboarding and discovery documentation"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.md",
@@ -63,7 +68,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "f4c3bff1dc32c48499b41ce10e9d506f7dc88226fccabaf1c00575f847218425",
+      "sha256": "7b4ac57c6c3906412dd1bd6b61368c10a4fd4b500557995be7681b85a7e42ce5",
       "role": "public project metadata and documentation"
     },
     {
@@ -83,7 +88,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "4862a5c8002e0720015f737d3a1b8f0ec142ea102d64c6f735e4b6b7d45c8fc5",
+      "sha256": "dabc3ac1b4dd980eb2a31ab97d4c04317cf79ab98163dd6cc41dc83174cbf1fc",
       "role": "public project metadata and documentation"
     },
     {
@@ -107,9 +112,29 @@
       "role": "public documentation and provenance"
     },
     {
+      "path": "docs/articles/two-routing-failures.md",
+      "sha256": "497a2836bf27e590f8863425471bb1271d8496ef19f0dd6d423ec795d4eac60d",
+      "role": "public onboarding and discovery documentation"
+    },
+    {
+      "path": "docs/beta-trial.md",
+      "sha256": "cfc1b89d0d0d02a9c18701982e8b3aa2b5110c78afd0a657f98210be9bca2e7a",
+      "role": "public onboarding and discovery documentation"
+    },
+    {
       "path": "docs/compatibility.md",
       "sha256": "5a60bb90bd053fec771fd646da9c6157e31f2216ace49ef96b0bbcfc4a46b4b0",
       "role": "public documentation and provenance"
+    },
+    {
+      "path": "docs/demo.md",
+      "sha256": "e69810885348051014f6bf1c99fd17c063d2a22310a4936450302be0716d6eea",
+      "role": "public onboarding and discovery documentation"
+    },
+    {
+      "path": "docs/directory-readiness.md",
+      "sha256": "6b39191d87824f692edb58ca435eb368b67fae447940fa7b24682c8036f36e8f",
+      "role": "public onboarding and discovery documentation"
     },
     {
       "path": "docs/evidence/README.md",
@@ -470,6 +495,61 @@
       "path": "docs/evidence/behavior-review-gate-2026-09-19/run.json",
       "sha256": "97fc2a74c479d9c854eb607c2b264a10161a7aa4c7a8808b568a77e6811cfb5f",
       "role": "sanitized synthetic evaluation evidence"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/media.json",
+      "sha256": "0b6d5fb6f116a46b967c51663629f8e152df5890f5e5c8e4554aca8222141c69",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/regression/after.json",
+      "sha256": "6d8b4d5edcaa848eaec161a7f5a0bbbf434c556d42f599aa15fc57e76c9e4f87",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/regression/before.json",
+      "sha256": "bf1424f3684cc1b6add03e81d9df048a30315cace592b42d140024848227a6e2",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/regression/counterfactual.txt",
+      "sha256": "79ed3eda6e39ae3e501d49080c309eaa156271723b7dd43fc9a82239bbcadc02",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/regression/events.jsonl",
+      "sha256": "a93c054518c99b69133a7781514f65791b1bbc3b3458f106fc4c653649019d42",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/regression/final.txt",
+      "sha256": "fc4a577fc47d482688ce3c7e2f3cc351ae1a8b30a849bc8082765c832c5ae8a0",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/regression/request.txt",
+      "sha256": "1a2fa139d0977326d96a764d096b80ec01c9cecb20c6b9e5fcb99efab04cbd4d",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/regression/stderr.txt",
+      "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/regression/tests.txt",
+      "sha256": "a591c8aff289fc7b692da14d555dd29c0fa3f434a8a0aabd1f8a186443aac41b",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/run.json",
+      "sha256": "f8bdb646cd027082bec45a28502ae14255342102a5efc942594f14405f392055",
+      "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/demo-tdd-2026-09-19/storyboard.json",
+      "sha256": "f2b3f5494c7660037b6e45b105b0b3868df265233c84f6f40ee592a90bfd3498",
+      "role": "real demo evidence and media provenance"
     },
     {
       "path": "docs/evidence/hosted-ci-2026-09-19.json",
@@ -1808,12 +1888,12 @@
     },
     {
       "path": "docs/sources.md",
-      "sha256": "980cdc784ada8346f1384a28e863efd63879a19cbae544d427beeb092201a2e0",
+      "sha256": "2bd0f4e0a7247e92fdb40aa164cd5a202acca704862d00e0ea9303608d4d1b36",
       "role": "public documentation and provenance"
     },
     {
       "path": "docs/troubleshooting.md",
-      "sha256": "a07f066add3d7a97c99b294f31abeceecea35e056a6f690df6a4423313ef3b32",
+      "sha256": "2a0a05bf9217879a99e0b867969dab0818b6e24f6351841499a868df84999405",
       "role": "public documentation and provenance"
     },
     {

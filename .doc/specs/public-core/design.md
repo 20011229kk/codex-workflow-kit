@@ -50,3 +50,15 @@ sequenceDiagram
 ## Testing Strategy
 
 Write executable contract tests before packaging/evaluation-tool implementation. Exercise determinism, resource completeness, unlisted/unsafe files and profile identity. Run actual native install/fresh-session/update/remove operations in temporary state. Execute routing and behavior evaluation against the installed content, with original observations and evidence review. Run fast tests in CI without credentials; live model runs remain explicit. Record gaps and external decisions in tasks.md, the sole task-state source.
+
+## Discovery and Adoption Delivery
+
+README leads with the user problem, pinned CLI command and an edited terminal demonstration. Keep the eight runtime skills and the immutable v0.1.0-beta archive unchanged. The FAQ explains pre-start ENOENT failures, an optional verified macOS app-binary fallback, and overlap with an existing workflow. Explicit requests guide selection; they do not enforce a host-level disabled-by-default policy.
+
+Use the existing independently reviewed real-task runner for a disposable clamp regression scenario. Preserve raw sanitized events, before/after fixtures, model settings and test evidence. Render selected actual terminal outputs into a 30-60 second video, label removed idle time and link the full evidence. Optional media rendering uses existing local tooling; it is not a runtime plugin dependency. Video/GIF outputs stay in ignored dist/ and become Release assets. Source documentation and recording metadata remain in the publication allowlist.
+
+Publish the English article and a reusable feedback template in the repo. Put Chinese channel copy in a separate sibling delivery directory. A public issue invites volunteers without demanding private code, personal configuration or credentials. The user reported no existing channels or contacts; keep recruitment open until five real users actually participate. No speculative outreach identities or automated unsolicited messages.
+
+Update precise GitHub topics. Assess the official plugin submission flow through current documentation; publisher identity/verification and review acceptance remain external requirements. Do not create identities, accept legal attestations or claim directory publication on the maintainer's behalf.
+
+Verification includes the existing repository checks, unchanged runtime archive digest, syntax and link checks, actual model/task evidence, media duration and frame inspection, public asset retrieval, rendered GitHub README inspection, and accurate recruitment/submission state. This is an adoption effort, not a performance benchmark.

@@ -1,31 +1,40 @@
 # Codex Workflow Kit
 
-Eight focused development skills for Codex, adapted from Superpowers. Scale process to task risk, preserve project conventions and existing authorization, and verify outcomes with evidence.
+**Codex development workflows that scale to the task: direct edits for small fixes, test-first repairs for bugs, and planning or review when the risk calls for it.**
 
-**0.1.0-beta** is the first versioned plugin bundle. See [releases](https://github.com/20011229kk/codex-workflow-kit/releases) for downloads and [validation](docs/validation.md) for installation, hosted checks and evaluation evidence. This is an independent project, not an official OpenAI or Superpowers distribution.
+Eight focused skills adapted from Superpowers. Keep your project's conventions, continue already-authorized work, and tie completion claims to evidence. This is an independent project, not an official OpenAI or Superpowers distribution.
 
-## Quick Start
+## Install the Beta
 
-Use a Codex CLI with native plugin commands. The validated local baseline is **Codex CLI 0.153.4 on macOS arm64**. Other versions and platforms require verification; the App UI has not been tested.
-
-From a source checkout or extracted release archive:
+With a working Codex CLI that supports native plugins, run this single command:
 
 ```sh
-codex --version
-codex plugin marketplace add .
-codex plugin add codex-workflow-kit@codex-workflow-kit
-codex plugin list --marketplace codex-workflow-kit --json
+codex plugin marketplace add 20011229kk/codex-workflow-kit --ref v0.1.0-beta && codex plugin add codex-workflow-kit@codex-workflow-kit
 ```
 
-Start a new Codex session in your project. Try:
+Validated native baseline: **Codex CLI 0.153.4, macOS arm64**. Other host versions/platforms and desktop UI installation remain unverified. [CLI ENOENT or installation trouble?](docs/troubleshooting.md#codex-fails-with-spawn-enoent)
+
+Start a **new Codex session** in your project, then try:
 
 ```text
-Use $cwk-route to choose the workflow for this task. Follow this project's existing rules.
+Use $cwk-tdd to reproduce and fix this defect. Follow this project's existing rules.
 ```
 
-For a simple wording fix, ask directly; a workflow skill is usually unnecessary. For a known bug, try `Use $cwk-tdd to reproduce and fix this defect.` See [first-use examples](docs/getting-started.md) and [troubleshooting](docs/troubleshooting.md).
+Unsure which workflow fits? Ask `Use $cwk-route to choose the workflow for this task.` For a simple wording fix, ask directly. Installation makes skills available and records the plugin in Codex configuration; it does not merge global/project AGENTS rules. Already using Superpowers? [Choose one provider per task](docs/troubleshooting.md#will-this-change-my-existing-workflow).
 
-To install the published beta from GitHub, register its pinned marketplace with `codex plugin marketplace add 20011229kk/codex-workflow-kit --ref v0.1.0-beta`, then run the plugin add command above.
+## Watch a Real Bug Fix
+
+[![Actual Codex run: failing regression, focused fix, passing tests](https://github.com/20011229kk/codex-workflow-kit/releases/download/v0.1.0-beta/codex-workflow-kit-demo-tdd.gif)](https://github.com/20011229kk/codex-workflow-kit/releases/download/v0.1.0-beta/codex-workflow-kit-demo-tdd.mp4)
+
+[Watch/download the short MP4](https://github.com/20011229kk/codex-workflow-kit/releases/download/v0.1.0-beta/codex-workflow-kit-demo-tdd.mp4) · [Full run and editing disclosure](docs/demo.md) · [First-use examples](docs/getting-started.md)
+
+The video is an edited terminal replay of a real isolated Codex run, with idle time shortened. It demonstrates behavior, not elapsed performance. No speed or token-saving advantage is claimed.
+
+## Help Shape the First Beta
+
+We are looking for **five Codex developers** to try one small, disposable task and report what happened. Successful installs, failures, and workflow conflicts are all useful. [Try the beta and share feedback](docs/beta-trial.md).
+
+Read the development story: [Why two of our first twenty workflow-selection cases failed](docs/articles/two-routing-failures.md). Evidence includes retained failures, later selection runs, and real task artifacts; it is not a universal reliability benchmark.
 
 ## Included Workflows
 

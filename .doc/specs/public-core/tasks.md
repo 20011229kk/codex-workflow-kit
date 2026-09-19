@@ -28,3 +28,21 @@ The user provided https://github.com/20011229kk/codex-workflow-kit. No competing
 ## Evidence
 
 [Validation report](../../../docs/validation.md) links native lifecycle, all three real selection campaigns, eight actual task scenarios and repository settings. The final native runtime archive digest is 69e727f9888ac92a48dff0f9365f8544411965488f0dce59ca5938ea7f3742ea. Hosted and public delivery evidence is recorded in docs/evidence/hosted-ci-2026-09-19.json, docs/evidence/public-tag-install-2026-09-19.json and docs/evidence/published-release-2026-09-19.json. Post-release evidence bookkeeping on main does not change the immutable runtime tag or archive.
+
+## Discovery and First-User Adoption
+
+Requested after beta publication; this remains the single task-state source.
+
+- [x] Inspect the current public tree, installed/tooling constraints and existing evidence; confirm that the maintainer has no existing recruiting channel or contacts.
+- [x] Record and inspect a fresh real isolated regression task; preserve sanitized output and proof of failure-before-fix.
+- [x] Produce and visually verify a 30-60 second demonstration and preview; publish media assets with hashes and editing disclosures.
+- [x] Rewrite README first-screen onboarding and expand installation/coexistence FAQ.
+- [x] Write the English development article and separate Chinese promotion copy, using original failed selection runs and measured evidence.
+- [ ] Add a public feedback template and recruiting guide; publish a repository invitation for five Codex users.
+- [ ] Obtain five real-user trial reports; record only actual voluntary responses and keep this pending while there are none.
+- [x] Update GitHub topics and assess official-directory submission requirements against current primary sources.
+- [ ] Validate scope, links, publication hashes, unchanged runtime bundle and media; commit/push the authorized public changes and verify hosted checks and rendering.
+
+Discovery evidence: docs/demo.md and docs/evidence/demo-tdd-2026-09-19/ retain the fresh 67.65-second task/check interval, red-green order, original-code counterfactual, 48-second edited replay and media verification. The article is docs/articles/two-routing-failures.md; Chinese article/community drafts are delivered outside this English repository. docs/directory-readiness.md records the skills-only submission route and missing publisher inputs. Topics now include codex-cli, codex-skills and test-driven-development in addition to the existing five.
+
+The invitation/form are prepared; no actual volunteer or trial report has been received at this checkpoint. External community posting awaits a maintainer-selected account/channel. This limitation does not prevent publishing the repository materials.

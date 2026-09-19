@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-19",
+  "authoring": "Pillow typeset scenes from storyboard; native AVFoundation H.264 encoding; no new plugin dependencies",
+  "video": {
+    "audio_tracks": 0,
+    "decode_status": "completed",
+    "decoded_frames": 1152,
+    "duration_seconds": 48,
+    "height": 720,
+    "nominal_fps": 24,
+    "width": 1280
+  },
+  "gif": {
+    "frames": 6,
+    "duration_ms": 48000,
+    "width": 960,
+    "height": 540,
+    "all_frames_decoded": true
+  },
+  "visual_review": "All six scenes inspected. Source frames 1/3/5 and decoded MP4 frames 2/4/6 were visually checked for legibility, clipping, orientation and evidence fidelity.",
+  "assets": [
+    {
+      "name": "codex-workflow-kit-demo-tdd.mp4",
+      "bytes": 3735291,
+      "sha256": "112f2ad587aafbb66f3286a15acee743308b10b366e96fe2ddf15a70461a32b4"
+    },
+    {
+      "name": "codex-workflow-kit-demo-tdd.gif",
+      "bytes": 306256,
+      "sha256": "07a7e2e50a9db68323a7d4c52c30c0c5a7da5d8679e371c575db8972f9f1c53e"
+    },
+    {
+      "name": "codex-workflow-kit-demo-tdd-poster.png",
+      "bytes": 56902,
+      "sha256": "e391f11bfaf61d301a94db519afcf35b46d86254c6011ca7f36426af9ef013d2"
+    }
+  ],
+  "public_download_verification": {
+    "date": "2026-09-19",
+    "unauthenticated": true,
+    "assets": [
+      {
+        "name": "codex-workflow-kit-demo-tdd.mp4",
+        "id": 573962622,
+        "url": "https://github.com/20011229kk/codex-workflow-kit/releases/download/v0.1.0-beta/codex-workflow-kit-demo-tdd.mp4",
+        "sha256": "112f2ad587aafbb66f3286a15acee743308b10b366e96fe2ddf15a70461a32b4",
+        "bytes": 3735291,
+        "public_download_verified": true
+      },
+      {
+        "name": "codex-workflow-kit-demo-tdd.gif",
+        "id": 573962828,
+        "url": "https://github.com/20011229kk/codex-workflow-kit/releases/download/v0.1.0-beta/codex-workflow-kit-demo-tdd.gif",
+        "sha256": "07a7e2e50a9db68323a7d4c52c30c0c5a7da5d8679e371c575db8972f9f1c53e",
+        "bytes": 306256,
+        "public_download_verified": true
+      },
+      {
+        "name": "codex-workflow-kit-demo-tdd-poster.png",
+        "id": 573962938,
+        "url": "https://github.com/20011229kk/codex-workflow-kit/releases/download/v0.1.0-beta/codex-workflow-kit-demo-tdd-poster.png",
+        "sha256": "e391f11bfaf61d301a94db519afcf35b46d86254c6011ca7f36426af9ef013d2",
+        "bytes": 56902,
+        "public_download_verified": true
+      },
+      {
+        "name": "codex-workflow-kit-demo-tdd.sha256",
+        "id": 573962989,
+        "url": "https://github.com/20011229kk/codex-workflow-kit/releases/download/v0.1.0-beta/codex-workflow-kit-demo-tdd.sha256",
+        "sha256": "0769b9b6c34395b2ce9da4fb1072f3bdf897b5f8cf078cf296f729ed0fe462c1",
+        "bytes": 301,
+        "public_download_verified": true
+      }
+    ]
+  }
+}

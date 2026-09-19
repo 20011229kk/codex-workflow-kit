@@ -1,0 +1,5 @@
+Fixed `clamp` to enforce both bounds while preserving `clamp(value, low, high)`.
+
+Added regression coverage before the fix and confirmed `12 != 10` failed. Retained existing tests and added boundary, equal-bound, and negative-range checks.
+
+`python3 -m unittest -v`: all 6 tests pass.

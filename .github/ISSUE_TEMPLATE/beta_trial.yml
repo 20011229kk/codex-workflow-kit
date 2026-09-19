@@ -1,0 +1,53 @@
+name: Beta trial feedback
+description: Share one actual Codex Workflow Kit trial, including unsuccessful attempts.
+title: "[Trial] "
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for trying the beta. Share only public, sanitized details. Never attach credentials, full configuration or private project logs."
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Codex CLI version, operating system/architecture, and kit version.
+      placeholder: "Codex 0.153.4; macOS arm64; kit 0.1.0-beta"
+    validations:
+      required: true
+  - type: textarea
+    id: existing-workflow
+    attributes:
+      label: Existing workflow
+      description: Other skill providers and optional rules adopted; do not paste personal configuration.
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task and installation attempt
+      description: What did you actually try? A short synthetic prompt is enough. Mention installation failures here.
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      options:
+        - Could not install
+        - Installed but skills unavailable
+        - Task completed as expected
+        - Task completed with workflow friction
+        - Task failed or remained incomplete
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Observed behavior and evidence
+      description: Expected versus actual behavior, a sanitized excerpt, and any repeated approvals or competing skills. Failed attempts are useful too.
+    validations:
+      required: true
+  - type: textarea
+    id: next-use
+    attributes:
+      label: Would you use it again?
+      description: What one thing would make this easier to understand or use?

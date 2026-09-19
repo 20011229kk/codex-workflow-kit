@@ -1,0 +1,11 @@
+test_above (test_clamp.ClampTests) ... ok
+test_below (test_clamp.ClampTests) ... ok
+test_boundaries (test_clamp.ClampTests) ... ok
+test_equal_bounds (test_clamp.ClampTests) ... ok
+test_middle (test_clamp.ClampTests) ... ok
+test_negative_range (test_clamp.ClampTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK

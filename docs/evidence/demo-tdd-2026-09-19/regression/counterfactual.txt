@@ -1,0 +1,33 @@
+test_above (test_clamp.ClampTests) ... FAIL
+test_below (test_clamp.ClampTests) ... ok
+test_boundaries (test_clamp.ClampTests) ... ok
+test_equal_bounds (test_clamp.ClampTests) ... test_middle (test_clamp.ClampTests) ... ok
+test_negative_range (test_clamp.ClampTests) ... 
+======================================================================
+FAIL: test_above (test_clamp.ClampTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<COUNTERFACTUAL_ROOT>/test_clamp.py", line 6, in test_above
+    def test_above(self): self.assertEqual(clamp(12, 0, 10), 10)
+AssertionError: 12 != 10
+
+======================================================================
+FAIL: test_equal_bounds (test_clamp.ClampTests) (value=12)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<COUNTERFACTUAL_ROOT>/test_clamp.py", line 14, in test_equal_bounds
+    self.assertEqual(clamp(value, 3, 3), 3)
+AssertionError: 12 != 3
+
+======================================================================
+FAIL: test_negative_range (test_clamp.ClampTests) (value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<COUNTERFACTUAL_ROOT>/test_clamp.py", line 18, in test_negative_range
+    self.assertEqual(clamp(value, -10, -2), expected)
+AssertionError: 0 != -2
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+FAILED (failures=3)

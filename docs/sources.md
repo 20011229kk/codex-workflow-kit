@@ -28,3 +28,9 @@ The maintainer confirmed publication authorization and MIT adoption on 2026-09-1
 Pin the upstream base, inspect the proposed version outside this candidate, compare each local adaptation, preserve user and project conventions, run relevant checks, and update provenance and CHANGELOG.md. Do not treat a wholesale upstream overwrite as a conflict-free update or upstream claims as validation of this package.
 
 Source-file digests identify the original inputs and remain unchanged when editing the candidate. Candidate digests belong in PUBLICATION_MANIFEST.json. Review the actual diff and file scope before updating that manifest; adding every discovered file automatically would defeat the allowlist.
+
+## Discovery Materials
+
+The development article, FAQ, beta invitation and demo captions were authored for this repository. The demo's scene mapping points to a fresh synthetic task run; its recorded fixture/code/outputs were generated through the repository's reviewed evaluation runner. The edited media adds no third-party photos, music or logos. Original Superpowers attribution remains unchanged.
+
+The directory assessment paraphrases OpenAI's public submission guidance and links to the primary pages, assessed 2026-09-19. It does not reproduce their screenshots or claim OpenAI endorsement. Media binaries are separate release attachments with their own checksums; they are not included in the runtime bundle or its provenance hashes.
