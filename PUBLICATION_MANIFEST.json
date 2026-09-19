@@ -23,7 +23,7 @@
     },
     {
       "path": ".doc/specs/public-core/tasks.md",
-      "sha256": "e2cfebccff97336cffc691e1957b71c70f4629a3964dd284e06d3edb0cdb8a62",
+      "sha256": "51869374a80f5f5447ddbf417e6b91c610768ff8d8c8b40eff604ceaaa538b65",
       "role": "publication specification and task state"
     },
     {
@@ -88,7 +88,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "dabc3ac1b4dd980eb2a31ab97d4c04317cf79ab98163dd6cc41dc83174cbf1fc",
+      "sha256": "43444c563e40234ed15688072db4e88ea0fc6691b32a4daa3e74179834f12e81",
       "role": "public project metadata and documentation"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "path": "docs/beta-trial.md",
-      "sha256": "cfc1b89d0d0d02a9c18701982e8b3aa2b5110c78afd0a657f98210be9bca2e7a",
+      "sha256": "d0670d552e7ce04666a6933bb81e0b3e2d03a9c17d07a0f9e153f607a621eba7",
       "role": "public onboarding and discovery documentation"
     },
     {
@@ -550,6 +550,11 @@
       "path": "docs/evidence/demo-tdd-2026-09-19/storyboard.json",
       "sha256": "f2b3f5494c7660037b6e45b105b0b3868df265233c84f6f40ee592a90bfd3498",
       "role": "real demo evidence and media provenance"
+    },
+    {
+      "path": "docs/evidence/discovery-delivery-2026-09-19.json",
+      "sha256": "39f25fc4890bd1dcce4f9f507627cff1e93649e7045a6010067466077f98f1ac",
+      "role": "hosted discovery publication evidence"
     },
     {
       "path": "docs/evidence/hosted-ci-2026-09-19.json",

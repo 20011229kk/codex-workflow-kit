@@ -38,11 +38,13 @@ Requested after beta publication; this remains the single task-state source.
 - [x] Produce and visually verify a 30-60 second demonstration and preview; publish media assets with hashes and editing disclosures.
 - [x] Rewrite README first-screen onboarding and expand installation/coexistence FAQ.
 - [x] Write the English development article and separate Chinese promotion copy, using original failed selection runs and measured evidence.
-- [ ] Add a public feedback template and recruiting guide; publish a repository invitation for five Codex users.
+- [x] Add a public feedback template and recruiting guide; publish a repository invitation for five Codex users.
 - [ ] Obtain five real-user trial reports; record only actual voluntary responses and keep this pending while there are none.
 - [x] Update GitHub topics and assess official-directory submission requirements against current primary sources.
-- [ ] Validate scope, links, publication hashes, unchanged runtime bundle and media; commit/push the authorized public changes and verify hosted checks and rendering.
+- [x] Validate scope, links, publication hashes, unchanged runtime bundle and media; commit/push the authorized public changes and verify hosted checks and rendering.
 
 Discovery evidence: docs/demo.md and docs/evidence/demo-tdd-2026-09-19/ retain the fresh 67.65-second task/check interval, red-green order, original-code counterfactual, 48-second edited replay and media verification. The article is docs/articles/two-routing-failures.md; Chinese article/community drafts are delivered outside this English repository. docs/directory-readiness.md records the skills-only submission route and missing publisher inputs. Topics now include codex-cli, codex-skills and test-driven-development in addition to the existing five.
 
-The invitation/form are prepared; no actual volunteer or trial report has been received at this checkpoint. External community posting awaits a maintainer-selected account/channel. This limitation does not prevent publishing the repository materials.
+The public invitation is issue #3 and the feedback form is live. No actual volunteer or trial report has been received at this checkpoint. External community posting awaits a maintainer-selected account/channel. Five real-user reports remain pending; publishing the invitation does not fulfill that outcome.
+
+[Discovery delivery evidence](../../../docs/evidence/discovery-delivery-2026-09-19.json) records merged PR #2, four successful hosted CI jobs, accurate topics and [public invitation #3](https://github.com/20011229kk/codex-workflow-kit/issues/3). Two native Git HTTPS pushes timed out; the Git Data API published the exact same reviewed tree/commit, and main was fast-forwarded without force. GitHub README media rendering and the live invitation were inspected. The original runtime ZIP asset and hash are preserved.

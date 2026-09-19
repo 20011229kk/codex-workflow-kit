@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-19",
+  "commit": "ba6e31fee8f0b943e6b370259747c864ab3a074e",
+  "pull": {
+    "number": 2,
+    "url": "https://github.com/20011229kk/codex-workflow-kit/pull/2",
+    "state": "closed",
+    "merged": true
+  },
+  "publication_method": "Git Data API because two native Git HTTPS attempts timed out; remote tree and commit SHA matched local exactly; non-force fast-forward of main after four successful CI checks",
+  "checks": [
+    {
+      "name": "check (macos-latest, 3.12)",
+      "conclusion": "success",
+      "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35418383238/job/105831316857"
+    },
+    {
+      "name": "check (ubuntu-latest, 3.12)",
+      "conclusion": "success",
+      "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35418383238/job/105831316808"
+    },
+    {
+      "name": "check (ubuntu-latest, 3.9)",
+      "conclusion": "success",
+      "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35418383238/job/105831316772"
+    },
+    {
+      "name": "check (macos-latest, 3.9)",
+      "conclusion": "success",
+      "url": "https://github.com/20011229kk/codex-workflow-kit/actions/runs/35418383238/job/105831316684"
+    }
+  ],
+  "invitation": {
+    "number": 3,
+    "url": "https://github.com/20011229kk/codex-workflow-kit/issues/3",
+    "browser_verified": true
+  },
+  "topics": [
+    "agent-skills",
+    "code-review",
+    "codex",
+    "testing",
+    "workflow",
+    "codex-cli",
+    "codex-skills",
+    "test-driven-development"
+  ],
+  "readme_visual_review": "GitHub rendered branch README inspected: install command, animated GIF, MP4/evidence links, trial invitation and topics visible.",
+  "directory_assessment": "docs/directory-readiness.md; no portal submission or acceptance claimed",
+  "trial_reports_received_at_publication": 0,
+  "external_community_posts": "not sent; maintainer has no existing account/channel or contacts",
+  "runtime_archive_sha256": "69e727f9888ac92a48dff0f9365f8544411965488f0dce59ca5938ea7f3742ea"
+}

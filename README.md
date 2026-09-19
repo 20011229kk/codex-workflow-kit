@@ -92,4 +92,4 @@ python3 scripts/release.py build
 
 The skills derive from **Superpowers v6.2.0**, with v6.3.0 reviewed for [current differences](docs/upstream-comparison.md). MIT notices and file provenance are retained; the kit is not a full upstream mirror.
 
-[Sources](docs/sources.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [License](LICENSE) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Publication files](PUBLICATION_MANIFEST.json) · [Release procedure](docs/publication.md)
+[Sources](docs/sources.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [License](LICENSE) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Publication files](PUBLICATION_MANIFEST.json) · [Release procedure](docs/publication.md) · [Directory assessment](docs/directory-readiness.md)

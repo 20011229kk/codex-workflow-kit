@@ -2,6 +2,8 @@
 
 We are recruiting five developers who already use Codex to try the beta on one disposable task. You do not need to star the repository, promote it, provide an email address, or share private code. We want to understand installation failures and workflow friction as much as successful runs.
 
+You can [volunteer in the public invitation](https://github.com/20011229kk/codex-workflow-kit/issues/3) or submit a report directly after trying it.
+
 ## A Small Trial
 
 1. Record your Codex CLI version and operating system. Read the [support boundaries](compatibility.md) and [coexistence FAQ](troubleshooting.md#will-this-change-my-existing-workflow).
